@@ -1,0 +1,133 @@
+Class,Assignment,Student Name,File Name,File path,Script Return Code,Script Output
+CSCE 206,Lab 1,ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1,code_9_12.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1\Homework1,Success,"{'California': 'CA', 'Michigan': 'MI', 'New York': 'NY', 'Florida': 'FL', 'Oregon': 'OR'}
+{'FL': 'Jacksonville', 'CA': 'San Francisco', 'MI': 'Detroit'}
+{'FL': 'Jacksonville', 'CA': 'San Francisco', 'MI': 'Detroit', 'NY': 'New York'}
+{'FL': 'Jacksonville', 'CA': 'San Francisco', 'MI': 'Detroit', 'OR': 'Portland', 'NY': 'New York'}
+----------
+NY State has:  New York
+OR State has:  Portland
+----------
+Michigan's abbreviation is:  MI
+Florida's abbreviation is:  FL
+----------
+Michigan has:  Detroit
+Florida has:  Jacksonville
+----------
+California is abbreviated CA
+Michigan is abbreviated MI
+New York is abbreviated NY
+Florida is abbreviated FL
+Oregon is abbreviated OR
+----------
+FL has the city Jacksonville
+CA has the city San Francisco
+MI has the city Detroit
+OR has the city Portland
+NY has the city New York
+----------
+California state is abbreviated CA and has city San Francisco
+Michigan state is abbreviated MI and has city Detroit
+New York state is abbreviated NY and has city New York
+Florida state is abbreviated FL and has city Jacksonville
+Oregon state is abbreviated OR and has city Portland
+Sorry, no Texas.
+The city for the state 'TX' is: Does Not Exist
+"
+CSCE 206,Lab 1,ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1,Gaussian_function1.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1\Homework1,Success,
+CSCE 206,Lab 1,ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1,index_nested_list.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1\Homework1,Success,"a
+['d', 'e', 'f']
+h
+d
+g
+"
+CSCE 206,Lab 1,ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1,interest_rate.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1\Homework1,Success,"1010.04276846
+"
+CSCE 206,Lab 1,ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1,SetOpHW1.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1\Homework1,Success,"intersection set(['10', '3', '20', '8'])
+union set(['10', '20', '14', '25', '33', '88', '15', '1', '55', '3', '8'])
+x-y: set(['1', '25', '14'])
+-x-y: set(['33', '55', '88', '15'])
+"
+CSCE 206,Lab 1,ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1,sin2_plus_cos2.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ADIA ARLEGIA AUSTIN_3487_assignsubmission_file_Homework1\Homework1,Success,"1.0
+"
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,Gaussian_function1.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\Homework 1,Error,
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,index_nexted_list.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\Homework 1,Success,"a
+['d', 'e', 'f']
+h
+d
+g
+because the - counts backwards in the list and since there is no -0 then -1 takes the place of the 0 placement
+"
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,interest_rate.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\Homework 1,Success,"1001.50075012
+"
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,intersection_union.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\Homework 1,Success,"intersection of x and y= set([8, 10, 3, 20])
+Z= set([1, 3, 33, 8, 10, 14, 15, 20, 55, 88, 25])
+X-Y set([1, 14, 25])
+Y-X set([88, 33, 55, 15])
+"
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,sin2_plus_cos2.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\Homework 1,Error,
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,states.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\Homework 1,Success,"----------
+NY State has:  New York
+OR State has:  Portland
+----------
+Michigan's abbreviation is:  MI
+Florida's abbreviation is:  FL
+----------
+Michigan has:  Detroit
+Florida has:  Jacksonville
+----------
+California is abbreviated CA
+Michigan i"
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,._Gaussian_function1.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\__MACOSX\Homework 1,Success,
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,._interest_rate.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\__MACOSX\Homework 1,Success,
+CSCE 206,Lab 1,ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson,._sin2_plus_cos2.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANDREA MICHELE ROBERSON_3497_assignsubmission_file_homework1_aroberson\__MACOSX\Homework 1,Success,
+CSCE 206,Lab 1,ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1,Gaussian_function1.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1\Homework1,Success,"0.176032663382
+"
+CSCE 206,Lab 1,ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1,index_nested_list.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1\Homework1,Success,"g
+a
+['d', 'e', 'f']
+h
+d
+"
+CSCE 206,Lab 1,ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1,interest_rate.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1\Homework1,Success,"Interest is 1157.625 dollars
+"
+CSCE 206,Lab 1,ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1,Question5.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1\Homework1,Success,"{'California': 'CA', 'Michigan': 'MI', 'New York': 'NY', 'Florida': 'FL', 'Oregon': 'OR'}
+{'FL': 'Jacksonville', 'CA': 'San Francisco', 'MI': 'Detroit'}
+{'FL': 'Jacksonville', 'CA': 'San Francisco', 'MI': 'Detroit', 'OR': 'Portland', 'NY': 'New York'}
+----------
+NY State has: New York
+OR State has: Portland
+----------
+Michigan's abbreviation is: MI
+Florida's abbreviation is: FL
+----------
+Michigan has: Detroit
+Florida has: Jacksonville
+----------
+California is abbreviated CA
+Michigan is abbreviated MI
+New York is abbreviated NY
+Florida is abbreviated FL
+Oregon is abbreviated OR
+----------
+FL has the city Jacksonville
+CA has the city San Francisco
+MI has the city Detroit
+OR has the city Portland
+NY has the city New York
+----------
+California state is abbreviated CA and has city San Francisco
+Michigan state is abbreviated MI and has city Detroit
+New York state is abbreviated NY and has city New York
+Florida state is abbreviated FL and has city Jacksonville
+Oregon state is abbreviated OR and has city Portland
+----------
+Sorry, no Texas.
+The city for the state 'TX' is: Does Not Exist
+"
+CSCE 206,Lab 1,ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1,Question6.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1\Homework1,Success,"intersection set([8, 10, 3, 20])
+union: set([1, 3, 33, 8, 10, 14, 15, 20, 55, 88, 25])
+x-y: set([1, 14, 25])
+y-x: set([88, 33, 55, 15])
+"
+CSCE 206,Lab 1,ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1,sin2_plus_cos2.py,C:\Users\sendurr_s\Dropbox\labexercises\labSample\ANSLEY JORDAN SUMMER_3509_assignsubmission_file_Homework1\Homework1,Success,"1.0
+"

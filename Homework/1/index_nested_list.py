@@ -11,6 +11,8 @@ Y=set([3,3,8,10,15,20,33,55,88])
 
 print "The union of set X|Y = " + str(X|Y)
 print "The intersection of set X&Y = " + str(X&Y)
+print "X-Y = " + str(X.difference(Y))
+print "Y-X = " + str(Y.difference(X))
 
 
 '''################################################################################
