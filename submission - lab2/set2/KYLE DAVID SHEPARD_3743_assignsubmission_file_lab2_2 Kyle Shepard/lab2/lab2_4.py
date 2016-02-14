@@ -1,0 +1,1 @@
+CityT={"Columbia":72,"New York":63,"Seattle":41,"San Diego":73, "London":54, "Shanghai":59, "Tokyo":51, "Buenos Aires":79, "Sydney":91, "Manila":85}

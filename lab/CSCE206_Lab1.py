@@ -33,6 +33,7 @@ i=0
 while(i<arr_len):
         print "The value of array1 with index " + str(i) + " is " + str(array1[i])
         i=i+2
+print "This can also be written as array1[0::2] = " + str(array1[0::2])
 print "exercise 2 completed \n \n"
 
 # Exercise 3 :Store a list of strings into a variable and print out first and last items.
@@ -55,9 +56,7 @@ print "exercise 3 completed \n \n"
 my_array = [[1,2,3],[4,5,6],[7,8,9]]
 print "Printing results of exercise 4 \n"
 
-print "The value of array with index 0 , 1 is " + str(my_array[0][1])
 print "The value of array with index 1 , 1 is " + str(my_array[1][1])
-print "The value of array with index 2 , 1 is " + str(my_array[2][1])
 
 print "exercise 4 completed \n \n"
 

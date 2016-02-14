@@ -1,0 +1,4279 @@
+Class,Assignment,Student Name,File Name,File path,Script Return Code,File Content,Script Output,grade,remarks,status
+CSCE 206,Lab 1,ANTHONY OLIVER JR._5487_assignsubmission_file_,lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\ANTHONY OLIVER JR._5487_assignsubmission_file_lab3\lab3,Success,"print(""1. play with list and set"")
+L1=[2,3,4,10]
+L2=[5,3,4,9,15]
+print (list(set(L1).intersection(L2)))
+print (list(set(L1).union(L2)))
+print (list(set(L1)-set(L2)))
+L3=L1+L2
+print (L3)
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print (L2)
+print (""2. while loop application"")
+def func(n):
+	num=range(13,999)
+	variablesum=[x for x in num if x%2]
+	return (variablesum)
+variablesum=func(999)
+print (variablesum)
+
+
+print (""3. random integers"")
+import random
+def xrange():
+	x=[int(300*random.random(300)) for i in xrange(300)]
+	if i%7==0 and i%3==0:
+		print(i)","1. play with list and set
+[3, 4]
+[2, 3, 4, 5, 9, 10, 15]
+[2, 10]
+[2, 3, 4, 10, 5, 3, 4, 9, 15]
+[5, 3, 4, 9, 15, 103, 20, 34]
+2. while loop application
+[13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363, 365, 367, 369, 371, 373, 375, 377, 379, 381, 383, 385, 387, 389, 391, 393, 395, 397, 399, 401, 403, 405, 407, 409, 411, 413, 415, 417, 419, 421, 423, 425, 427, 429, 431, 433, 435, 437, 439, 441, 443, 445, 447, 449, 451, 453, 455, 457, 459, 461, 463, 465, 467, 469, 471, 473, 475, 477, 479, 481, 483, 485, 487, 489, 491, 493, 495, 497, 499, 501, 503, 505, 507, 509, 511, 513, 515, 517, 519, 521, 523, 525, 527, 529, 531, 533, 535, 537, 539, 541, 543, 545, 547, 549, 551, 553, 555, 557, 559, 561, 563, 565, 567, 569, 571, 573, 575, 577, 579, 581, 583, 585, 587, 589, 591, 593, 595, 597, 599, 601, 603, 605, 607, 609, 611, 613, 615, 617, 619, 621, 623, 625, 627, 629, 631, 633, 635, 637, 639, 641, 643, 645, 647, 649, 651, 653, 655, 657, 659, 661, 663, 665, 667, 669, 671, 673, 675, 677, 679, 681, 683, 685, 687, 689, 691, 693, 695, 697, 699, 701, 703, 705, 707, 709, 711, 713, 715, 717, 719, 721, 723, 725, 727, 729, 731, 733, 735, 737, 739, 741, 743, 745, 747, 749, 751, 753, 755, 757, 759, 761, 763, 765, 767, 769, 771, 773, 775, 777, 779, 781, 783, 785, 787, 789, 791, 793, 795, 797, 799, 801, 803, 805, 807, 809, 811, 813, 815, 817, 819, 821, 823, 825, 827, 829, 831, 833, 835, 837, 839, 841, 843, 845, 847, 849, 851, 853, 855, 857, 859, 861, 863, 865, 867, 869, 871, 873, 875, 877, 879, 881, 883, 885, 887, 889, 891, 893, 895, 897, 899, 901, 903, 905, 907, 909, 911, 913, 915, 917, 919, 921, 923, 925, 927, 929, 931, 933, 935, 937, 939, 941, 943, 945, 947, 949, 951, 953, 955, 957, 959, 961, 963, 965, 967, 969, 971, 973, 975, 977, 979, 981, 983, 985, 987, 989, 991, 993, 995, 997]
+3. random integers
+",8,"For the 2 question, we need to print the sum of odd numbers from 13 to 99.
+
+For question 3 , conditional operators cannot be performed on list, we need to have conditions on the list elements and moreover the function is to be called to be executed.
+
+if( (x[i]%3 == 0) & (x[i]%7 ==0)):",complete
+CSCE 206,Lab 1,AROLINE MARIE KERFONTA_5445_assignsubmission_file_,lab3problem1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\CAROLINE MARIE KERFONTA_5445_assignsubmission_file_lab3\lab3,Success,"def remove_duplicates():
+	L1= [2,3,4,10]
+	L2= [5,3,4,9,10,15]
+	for L1 in L2:
+		L1.append(L1.remove())
+	return L1
+	print (L1)
+
+L1= [2,3,4,10]
+L2= [5,3,4,9,10,15]
+L3= [item for item in L1 if item not in L2]
+print (L3)
+
+mergedlist = L1 + L2
+print (mergedlist)
+
+L2= [5,3,4,9,10,15];
+L2.append(103);
+L2.append(20);
+L2.append(34);
+print (L2)","[2]
+[2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+",9,"For the last question, we cannot use conditional operators for the entier. You would have to loop through all elements.
+
+import random
+
+x=[int(300*random.random()) for i in xrange(300)]
+
+
+
+result = []
+
+i=0
+
+while(i<len(x)):
+
+    if( (x[i]%3 == 0) & (x[i]%7 ==0)):
+
+        result.append(x[i])
+
+    i+=1
+
+
+
+print ""The list of random numbers which are a factor of 3 & 7 are "" + str(result)",complete
+CSCE 206,Lab 1,AROLINE MARIE KERFONTA_5445_assignsubmission_file_,lab3problem2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\CAROLINE MARIE KERFONTA_5445_assignsubmission_file_lab3\lab3,Success,"numbers = range(13,999)
+def addOddNumbers(numbers):
+    total = 0
+    for num in numbers:
+        if num % 2 == 1:
+            total += num
+    print (total)
+
+",,,,
+CSCE 206,Lab 1,AROLINE MARIE KERFONTA_5445_assignsubmission_file_,lab3problem3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\CAROLINE MARIE KERFONTA_5445_assignsubmission_file_lab3\lab3,Error,"import random
+x=[int(300*random.random()) for i in xrange(300)]
+if x%3 == 0 and x%7==0:
+	print (x)",,,,
+CSCE 206,Lab 1,DANIEL M HARPER_5484_assignsubmission_file_,CSCE206Lab3SimpleDanielHarper.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\DANIEL M HARPER_5484_assignsubmission_file_lab3\lab3,Success,"# Author: Daniel Harper
+# Assignment: Lab 3
+# Original Date: 2/4/2016
+# Last Updated:  2/4/2016
+# Written using Python 3.4.3.7
+# All rights reserved
+#####################################################################
+# Importation Section################################################
+#from math import *
+import random
+
+# Body Section#######################################################
+#--------------------------------------------------------------------
+# 1. play with list and set
+L1=[2, 3, 4,10]
+L2=[5,3,4,9,10,15]
+
+L1 = set(L1)
+L2 = set(L2)
+# Print out the numbers that exist in both variables L1 and L2 using 
+# set operations
+print(""Intersection:"",set.intersection(L1,L2))
+
+# Print out numbers that exists in either L1 or L2, but not both using 
+# set operation
+answer3 = set.difference(L1,L2) 
+answer2 = set.difference(L2,L1)
+print(""Mutual Exclusive:"",set.union(answer2,answer3))
+
+# Print out numbers that exist in L1 but not in L2. 
+print(""L1 Exclusive:"",answer3)
+
+# merge L1 and L2 and save it into variable L3
+L3 = L1 | L2
+print(""L3 (L1 + L2):"",L3)
+
+# Add the following numbers to L2,   103, 20, 34 using  append() 
+# function of list. 
+L2 = list(L2)
+
+L2.append(103)
+L2.append(20)
+L2.append(34)
+
+print(""L2 appended:"",L2)
+
+#--------------------------------------------------------------------
+# 2. while loop application
+# starting with 13, add all the odd numbers from 13 up to 999
+# save it to variable sum
+total = 0
+i = 13
+while(i < 1000):
+	if i % 2 == 1:
+		total += i
+	i += 1
+print(""Total (13-999 odd):"",total)
+
+#--------------------------------------------------------------------
+# 3. The following code generates 300 random integers
+# use while loop to print out all the numbers that have factors of 3 
+# and 7 hint: use % operator
+x=[int(300*random.random()) for i in range(300)]
+i = 0
+factors = []
+while i < len(x):
+	if x[i] % 7 == 0:
+		if x[i] % 3 == 0:
+			factors.append(x[i])
+	i += 1
+print(""Factors 3 and 7:"", factors)
+
+","('Intersection:', set([10, 3, 4]))
+('Mutual Exclusive:', set([9, 2, 5, 15]))
+('L1 Exclusive:', set([2]))
+('L3 (L1 + L2):', set([2, 3, 4, 5, 9, 10, 15]))
+('L2 appended:', [3, 4, 5, 9, 10, 15, 103, 20, 34])
+('Total (13-999 odd):', 249964)
+('Factors 3 and 7:', [231, 210, 0, 105, 42, 0, 252, 252, 63, 126, 189, 273, 0, 273])
+",10,,complete
+CSCE 206,Lab 1,DOMENICA KATHRYN IOCCO_5460_assignsubmission_file_Lab Session 3 HW,Lab Session 3 HW.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\DOMENICA KATHRYN IOCCO_5460_assignsubmission_file_Lab Session 3 HW\lab3,Success,"#play with list and set
+L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+set(L1) & set(L2)
+#numbers that exist in both L1 and L2
+print(""intersection:"", L1 & L2)
+#in either L1 or L2 but not both
+print(L1 ^ L2)
+#numbers in L1 but not L2
+print(L1-L2)
+#merge L1 and L2
+L3 = (""union:"", L1 | L2)
+print(L3)
+#add 103, 20, and 34 to L2
+L2 = [5,3,4,9,10,15];
+L2.append(103);
+print(""Updated list:"", L2)
+L2.append(20);
+print(""updated list:"", L2)
+L2.append(34);
+print(""updated list:"", L2)
+
+#loop application
+Newlist = []
+for x in range(13,999,2):
+	Newlist.append(x)
+	#print(Newlist)
+	print(sum(Newlist))
+
+#random integers code
+import random
+x = [int(300*random.random()) for i in range(300)]
+print(x)
+result = list(filter(lambda z: (z%7==0 and z%3==0), x))
+print(""Numbers divisible by 7 and 3 are"", result)
+	","('intersection:', set([10, 3, 4]))
+set([2, 5, 9, 15])
+set([2])
+('union:', set([2, 3, 4, 5, 9, 10, 15]))
+('Updated list:', [5, 3, 4, 9, 10, 15, 103])
+('updated list:', [5, 3, 4, 9, 10, 15, 103, 20])
+('updated list:', [5, 3, 4, 9, 10, 15, 103, 20, 34])
+13
+28
+45
+64
+85
+108
+133
+160
+189
+220
+253
+288
+325
+364
+405
+448
+493
+540
+589
+640
+693
+748
+805
+864
+925
+988
+1053
+1120
+1189
+1260
+1333
+1408
+1485
+1564
+1645
+1728
+1813
+1900
+1989
+2080
+2173
+2268
+2365
+2464
+2565
+2668
+2773
+2880
+2989
+3100
+3213
+3328
+3445
+3564
+3685
+3808
+3933
+4060
+4189
+4320
+4453
+4588
+4725
+4864
+5005
+5148
+5293
+5440
+5589
+5740
+5893
+6048
+6205
+6364
+6525
+6688
+6853
+7020
+7189
+7360
+7533
+7708
+7885
+8064
+8245
+8428
+8613
+8800
+8989
+9180
+9373
+9568
+9765
+9964
+10165
+10368
+10573
+10780
+10989
+11200
+11413
+11628
+11845
+12064
+12285
+12508
+12733
+12960
+13189
+13420
+13653
+13888
+14125
+14364
+14605
+14848
+15093
+15340
+15589
+15840
+16093
+16348
+16605
+16864
+17125
+17388
+17653
+17920
+18189
+18460
+18733
+19008
+19285
+19564
+19845
+20128
+20413
+20700
+20989
+21280
+21573
+21868
+22165
+22464
+22765
+23068
+23373
+23680
+23989
+24300
+24613
+24928
+25245
+25564
+25885
+26208
+26533
+26860
+27189
+27520
+27853
+28188
+28525
+28864
+29205
+29548
+29893
+30240
+30589
+30940
+31293
+31648
+32005
+32364
+32725
+33088
+33453
+33820
+34189
+34560
+34933
+35308
+35685
+36064
+36445
+36828
+37213
+37600
+37989
+38380
+38773
+39168
+39565
+39964
+40365
+40768
+41173
+41580
+41989
+42400
+42813
+43228
+43645
+44064
+44485
+44908
+45333
+45760
+46189
+46620
+47053
+47488
+47925
+48364
+48805
+49248
+49693
+50140
+50589
+51040
+51493
+51948
+52405
+52864
+53325
+53788
+54253
+54720
+55189
+55660
+56133
+56608
+57085
+57564
+58045
+58528
+59013
+59500
+59989
+60480
+60973
+61468
+61965
+62464
+62965
+63468
+63973
+64480
+64989
+65500
+66013
+66528
+67045
+67564
+68085
+68608
+69133
+69660
+70189
+70720
+71253
+71788
+72325
+72864
+73405
+73948
+74493
+75040
+75589
+76140
+76693
+77248
+77805
+78364
+78925
+79488
+80053
+80620
+81189
+81760
+82333
+82908
+83485
+84064
+84645
+85228
+85813
+86400
+86989
+87580
+88173
+88768
+89365
+89964
+90565
+91168
+91773
+92380
+92989
+93600
+94213
+94828
+95445
+96064
+96685
+97308
+97933
+98560
+99189
+99820
+100453
+101088
+101725
+102364
+103005
+103648
+104293
+104940
+105589
+106240
+106893
+107548
+108205
+108864
+109525
+110188
+110853
+111520
+112189
+112860
+113533
+114208
+114885
+115564
+116245
+116928
+117613
+118300
+118989
+119680
+120373
+121068
+121765
+122464
+123165
+123868
+124573
+125280
+125989
+126700
+127413
+128128
+128845
+129564
+130285
+131008
+131733
+132460
+133189
+133920
+134653
+135388
+136125
+136864
+137605
+138348
+139093
+139840
+140589
+141340
+142093
+142848
+143605
+144364
+145125
+145888
+146653
+147420
+148189
+148960
+149733
+150508
+151285
+152064
+152845
+153628
+154413
+155200
+155989
+156780
+157573
+158368
+159165
+159964
+160765
+161568
+162373
+163180
+163989
+164800
+165613
+166428
+167245
+168064
+168885
+169708
+170533
+171360
+172189
+173020
+173853
+174688
+175525
+176364
+177205
+178048
+178893
+179740
+180589
+181440
+182293
+183148
+184005
+184864
+185725
+186588
+187453
+188320
+189189
+190060
+190933
+191808
+192685
+193564
+194445
+195328
+196213
+197100
+197989
+198880
+199773
+200668
+201565
+202464
+203365
+204268
+205173
+206080
+206989
+207900
+208813
+209728
+210645
+211564
+212485
+213408
+214333
+215260
+216189
+217120
+218053
+218988
+219925
+220864
+221805
+222748
+223693
+224640
+225589
+226540
+227493
+228448
+229405
+230364
+231325
+232288
+233253
+234220
+235189
+236160
+237133
+238108
+239085
+240064
+241045
+242028
+243013
+244000
+244989
+245980
+246973
+247968
+248965
+[194, 74, 261, 10, 205, 169, 160, 261, 4, 149, 109, 128, 8, 11, 253, 163, 30, 298, 130, 218, 47, 272, 127, 254, 121, 194, 227, 256, 61, 67, 50, 75, 188, 19, 114, 22, 104, 194, 272, 149, 142, 137, 188, 222, 232, 294, 237, 239, 111, 111, 104, 171, 67, 69, 224, 206, 51, 159, 279, 39, 96, 61, 98, 98, 34, 106, 107, 193, 88, 141, 131, 276, 207, 8, 242, 141, 18, 113, 205, 256, 134, 93, 190, 236, 49, 6, 12, 257, 75, 115, 62, 256, 149, 221, 141, 229, 60, 233, 15, 206, 221, 107, 97, 104, 136, 226, 64, 246, 35, 230, 112, 171, 75, 27, 29, 85, 51, 133, 6, 154, 72, 141, 185, 270, 219, 198, 222, 203, 251, 57, 171, 168, 269, 178, 271, 17, 157, 155, 202, 148, 197, 117, 50, 268, 94, 68, 34, 188, 267, 149, 206, 70, 71, 12, 16, 189, 228, 229, 102, 273, 198, 64, 183, 15, 249, 43, 185, 152, 191, 177, 60, 284, 18, 104, 135, 192, 255, 204, 290, 145, 296, 18, 263, 204, 166, 173, 78, 200, 123, 211, 72, 296, 222, 82, 75, 69, 111, 91, 167, 197, 266, 294, 201, 286, 208, 35, 96, 170, 262, 297, 91, 270, 97, 260, 209, 54, 201, 12, 115, 84, 119, 248, 286, 272, 190, 138, 222, 66, 122, 290, 143, 178, 148, 290, 124, 136, 188, 193, 137, 64, 211, 63, 110, 180, 60, 142, 235, 123, 95, 266, 21, 298, 72, 61, 50, 268, 218, 271, 214, 114, 49, 21, 95, 2, 72, 298, 191, 213, 261, 246, 260, 275, 201, 8, 56, 211, 33, 61, 274, 133, 170, 122, 0, 281, 274, 147, 209, 52, 15, 35, 69, 185, 128, 59, 99, 224, 198, 117, 1, 20]
+('Numbers divisible by 7 and 3 are', [294, 168, 189, 273, 294, 84, 63, 21, 21, 0, 147])
+",10,,complete
+CSCE 206,Lab 1,DUSTIN S MULLINS_5465_assignsubmission_file_L,Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\DUSTIN S MULLINS_5465_assignsubmission_file_Lab 3\lab3,Success,"#1
+L1 = {2,3,4,10}
+L2 = {5,3,4,9,10,15}
+
+print L1 & L2
+print (L1 | L2) - (L1 & L2)
+print L1 - L2
+
+L2 = list(L2)
+L3 = (103,20,34)
+L2.append(L3)
+print L2
+
+#2
+x = 13
+stepsize = 2
+x_sum = 0
+while x<999:
+	x_sum += x
+	x += stepsize
+print x_sum
+
+#3
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+#print x
+index = 0
+while index < 300:
+	if x[index]%3==0 and x[index]%7==0:
+		print x[index]
+	index += 1
+
+","set([10, 3, 4])
+set([9, 2, 5, 15])
+set([2])
+[3, 4, 5, 9, 10, 15, (103, 20, 34)]
+248965
+0
+147
+105
+189
+126
+294
+168
+42
+105
+252
+105
+210
+63
+189
+63
+0
+0
+21
+168
+126
+189
+189
+189
+252
+42
+168
+",9,"For the question 2, you would have to include 999 also, ie : while x<= 999:",complete
+CSCE 206,Lab 1,JEREMY W ABRAMS_5485_assignsubmission_file_abramsjw_lab3,abramsjw_lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\JEREMY W ABRAMS_5485_assignsubmission_file_abramsjw_lab3\abramsjw_lab3,Success,"# Jeremy Abrams
+# CSCE 206
+# Lab 3
+# February 2, 2016
+
+# Question 1
+
+# Create and instantiate L1 and L2
+L1 = [2, 3, 4, 10]
+L2 = [5, 3, 4, 9, 10, 15]
+
+print ""Question 1 Answers:""
+# Use set operations to determine which values are in L1 and L2
+intersect = set(L1) & set(L2)
+print ""Intersection: "",intersect
+
+# Use set operations to determine which values are in L1 or L2, but not both
+unique = set(L1) ^ set(L2)
+print ""Unique Numbers: "", unique
+
+# Use set operations to determine what is in L1 but not L2
+difference = set(L1) - set(L2)
+print ""L1 Unique Numbers: "", difference
+
+# Merge L1 and L2 into a new array
+L3 = L1 + L2
+print ""Merged List: "", L3
+
+# Add new values to end of L2
+L2.append(103)
+L2.append(20)
+L2.append(34)
+
+print ""Appended List: "", L2
+
+print '\n'
+# Question 2
+
+# Create an index variable for the while loop and set it equal to 13.
+index = 13
+
+# Create a total variable to use to add up all odd numbers between 13 and 999.
+total = 0
+
+# While loop to add all odd numbers between 13 and 999.
+while index < 999:
+	total = total + index
+	index = index + 2
+
+print ""Question 2 Answer: ""
+print total, ""\n""
+
+
+# Question 3
+
+print ""Question 3 Answer: ""
+# Randomly generate 300 numbers between 0 and 300. 
+import random
+x = [int(300*random.random()) for i in xrange(300)]
+
+i = 0
+
+# Loop through the array and find values that are multiples of 3 and 7.
+while i < len(x):
+	if x[i]%3==0 and x[i]%7==0:
+		print x[i]
+	i= i + 1
+
+","Question 1 Answers:
+Intersection:  set([10, 3, 4])
+Unique Numbers:  set([2, 5, 9, 15])
+L1 Unique Numbers:  set([2])
+Merged List:  [2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+Appended List:  [5, 3, 4, 9, 10, 15, 103, 20, 34]
+
+
+Question 2 Answer: 
+248965 
+
+Question 3 Answer: 
+84
+294
+210
+42
+189
+0
+126
+84
+147
+189
+126
+21
+189
+168
+168
+210
+189
+",9,"For the question 2, you would have to include 999 also, ie : while index <= 999:",complete
+CSCE 206,Lab 1,JOHN J WELSH_5478_assignsubmission_file_,problem1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\JOHN J WELSH_5478_assignsubmission_file_lab3\lab3,Success,"#Lab 3 Problem 1 by John Welsh
+
+# 1. play with list and set
+
+# L1=[2, 3, 4,10]
+# L2=[5,3,4,9,10,15]
+
+# Print out the numbers that exist in both variables L1 and L2 using set operations
+
+# Print out numbers that exists in either L1 or L2, but not both using set operation
+
+# Print out numbers that exist in L1 but not in L2. 
+
+# merge L1 and L2 and save it into variable L3
+
+# Add the following numbers to L2,   103, 20, 34 using  append() function of list. 
+
+L1 = [2, 3, 4, 10]
+L2 = [5, 3, 4, 9, 10, 15]
+print list(set(L1)&set(L2))
+print list(set(L1)-set(L2))+list(set(L2)-set(L1))
+print list(set(L1)-set(L2))
+L3 = L1+L2
+print L3
+for value in [103, 20, 34]:
+	L2.append(value)
+print L2
+","[10, 3, 4]
+[2, 9, 5, 15]
+[2]
+[2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+",10,,complete
+CSCE 206,Lab 1,JOHN J WELSH_5478_assignsubmission_file_,problem2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\JOHN J WELSH_5478_assignsubmission_file_lab3\lab3,Success,"#Lab 3 Problem 2 by John Welsh
+
+# 2. while loop application
+
+# starting with 13, add all the odd numbers from 13 up to 999
+# save it to variable sum
+
+i = 13
+_sum = 0
+while i <= 999:
+	_sum += i
+	i += 2
+print _sum","249964
+",,,
+CSCE 206,Lab 1,JOHN J WELSH_5478_assignsubmission_file_,problem3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\JOHN J WELSH_5478_assignsubmission_file_lab3\lab3,Success,"#Lab 3 Problem 3 by John Welsh
+
+# 3. The following code generates 300 random integers
+# use while loop to print out all the numbers that have factors of 3 and 7
+# hint: use % operator
+
+
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+i = 0
+numbers = []
+while i < len(x):
+	if x[i]%3 == 0 and x[i]%7 == 0 and x[i] != 0:
+		numbers.append(x[i])
+	i += 1
+print numbers
+","[63, 210, 189, 147, 231, 294, 21, 147, 126, 210, 84, 147, 231, 210, 294, 126, 231, 189, 147]
+",,,
+CSCE 206,Lab 1,JUSTIN V STONE_5466_assignsubmission_file_lab_3_j,lab3_1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\JUSTIN V STONE_5466_assignsubmission_file_lab_3_jstone\lab3,Success,"L1 = {2,3,4,10}
+L2 = {5,3,4,9,10,15}
+
+print ""In both L1 and L2:"", L1 & L2 
+print ""In either L1 or L2, but not both:"", L1^L2
+print ""In L1 but not in L2:"", L1-L2
+
+L3 = L1|L2
+print ""Merge of L1 and L2 equals L3:"", L3
+
+L1 = list(L1)
+L2 = list(L2)
+
+L2.append(103)
+L2.append(20)
+L2.append(34)
+
+print ""L2:"", L2","In both L1 and L2: set([10, 3, 4])
+In either L1 or L2, but not both: set([2, 5, 9, 15])
+In L1 but not in L2: set([2])
+Merge of L1 and L2 equals L3: set([2, 3, 4, 5, 9, 10, 15])
+L2: [3, 4, 5, 9, 10, 15, 103, 20, 34]
+",9,"For the question 2, you would have to include 999 also, ie : while index <= 999:",complete
+CSCE 206,Lab 1,JUSTIN V STONE_5466_assignsubmission_file_lab_3_j,lab3_2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\JUSTIN V STONE_5466_assignsubmission_file_lab_3_jstone\lab3,Success,"varSum = 0
+num = 13
+while num < 999:
+	varSum += num
+	num += 2
+print ""varSum:"", varSum","varSum: 248965
+",,,
+CSCE 206,Lab 1,JUSTIN V STONE_5466_assignsubmission_file_lab_3_j,lab3_3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\JUSTIN V STONE_5466_assignsubmission_file_lab_3_jstone\lab3,Success,"import random
+x=[int(300*random.random()) for i in xrange(300)]
+
+i=0
+while i in range(0, len(x)):
+	if x[i]%3==0 and x[i]%7==0:
+		print x[i]
+	i+=1
+","84
+273
+21
+0
+21
+210
+252
+231
+231
+231
+231
+105
+168
+252
+231
+273
+84
+42
+294
+",,,
+CSCE 206,Lab 1,KAYLA S REVELLE_5470_assignsubmission_file_Lab 3,Lab3Q1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KAYLA S REVELLE_5470_assignsubmission_file_Lab 3\Lab 3,Success,"
+L1 = {2,3,4,10}
+L2={5,3,4,9,10,15}
+print (L1 & L2)
+print (L1|L2)
+print (L1-L2)
+
+list_L1 = list(L1)
+list_L2 = list(L2)
+L3 = list_L1 + list_L2
+print (L3)
+
+list_L2 = list(L2)
+list_L2.append(103)
+list_L2.append(20)
+list_L2.append(34)
+print(list_L2)","set([10, 3, 4])
+set([2, 3, 4, 5, 9, 10, 15])
+set([2])
+[10, 3, 4, 2, 3, 4, 5, 9, 10, 15]
+[3, 4, 5, 9, 10, 15, 103, 20, 34]
+",10,,complete
+CSCE 206,Lab 1,KAYLA S REVELLE_5470_assignsubmission_file_Lab 3,Lab3Q2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KAYLA S REVELLE_5470_assignsubmission_file_Lab 3\Lab 3,Success,"
+sum_=0
+i = 13
+
+
+while i <= 999:
+	sum_ += i
+	i += 2
+print(sum_)","249964
+",,,
+CSCE 206,Lab 1,KAYLA S REVELLE_5470_assignsubmission_file_Lab 3,Lab3Q3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KAYLA S REVELLE_5470_assignsubmission_file_Lab 3\Lab 3,Success,"import random
+x=[int(300*random.random()) for i in range(300)]
+
+
+i = 0
+
+while i < len(x):
+	if x[i]%7==0 and x[i]%3==0:
+		print (x[i])
+	i += 1
+	
+	","189
+42
+126
+42
+63
+126
+189
+84
+231
+294
+210
+",,,
+CSCE 206,Lab 1,KELLY J KOPCHAK_5482_assignsubmission_file_Lab 3,question 1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KELLY J KOPCHAK_5482_assignsubmission_file_Lab 3\Lab 3,Success,"L1={2,3,4,10}
+L2={5,3,4,9,10,15}
+Set1=L1
+Set2=L2
+print L1, L2
+print (L1|L2)-(L1&L2)
+print L1-L2
+L3=set(L1).union(set(L2))
+print L3
+
+L2=[5,3,4,9,10,15]
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print L2","set([10, 3, 4, 2]) set([3, 4, 5, 9, 10, 15])
+set([9, 2, 5, 15])
+set([2])
+set([2, 3, 4, 5, 9, 10, 15])
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+",10,,complete
+CSCE 206,Lab 1,KELLY J KOPCHAK_5482_assignsubmission_file_Lab 3,question 2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KELLY J KOPCHAK_5482_assignsubmission_file_Lab 3\Lab 3,Success,"sum1=0
+A=13
+stepsize=2
+while A<1000:
+	sum1+=A
+	A+=stepsize
+print sum1
+	
+","249964
+",,,
+CSCE 206,Lab 1,KELLY J KOPCHAK_5482_assignsubmission_file_Lab 3,Question 3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KELLY J KOPCHAK_5482_assignsubmission_file_Lab 3\Lab 3,Success,"import random
+x=[int(300*random.random()) for i in range(300)]
+i=0
+#print x
+#print i
+while i < len(x):
+	if x[i]%3==0 and x[i]%7==0:
+		print (x[i])
+	i += 1
+
+
+
+","168
+252
+21
+21
+21
+126
+126
+21
+189
+",,,
+CSCE 206,Lab 1,KENNEDY K BATCHLER_5476_assignsubmission_file_L,Lab3Q3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KENNEDY K BATCHLER_5476_assignsubmission_file_Lab 3\lab3,Success,"import random
+i=0
+x=[int(300*random.random()) for i in xrange(300)]
+while i<=299:
+ if x[i]%3==0 & x[i]%7==0:
+  print i
+ i=i+1","299
+",8,"For the second question, q2 is incremented by 2 before its added to sum. Eg, when q2 is 13, q2 becomes 15 and then added to sum. Likewise when q2 is 999, it becomes 1001 and added to sum.
+
+ideally, it should be programmed to  
+
+ sum = sum + q2
+
+ q2 = q2 + 2
+
+
+
+For the last question, we should be printing x[i] and not i, and print should be inside the if condition.",complete
+CSCE 206,Lab 1,KENNEDY K BATCHLER_5476_assignsubmission_file_L,Lab3_Q1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KENNEDY K BATCHLER_5476_assignsubmission_file_Lab 3\lab3,Success,"L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+print set(L1).intersection(L2) #numbers that exist in L1 and L2
+print L1","set([10, 3, 4])
+set([2, 3, 4, 10])
+",,,
+CSCE 206,Lab 1,KENNEDY K BATCHLER_5476_assignsubmission_file_L,Lab3_Q1pt1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KENNEDY K BATCHLER_5476_assignsubmission_file_Lab 3\lab3,Success,"L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+print (L1).intersection(L2) #numbers that exist in L1 and L2
+","set([10, 3, 4])
+",,,
+CSCE 206,Lab 1,KENNEDY K BATCHLER_5476_assignsubmission_file_L,Lab3_Q1pt2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KENNEDY K BATCHLER_5476_assignsubmission_file_Lab 3\lab3,Success,"L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+print L2.difference(L1)   #what appears in L2 but NOT L1","set([9, 5, 15])
+",,,
+CSCE 206,Lab 1,KENNEDY K BATCHLER_5476_assignsubmission_file_L,Lab3_Q1pt3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KENNEDY K BATCHLER_5476_assignsubmission_file_Lab 3\lab3,Success,"L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+print L2.difference(L1)   #what appears in L1 but NOT L2","set([9, 5, 15])
+",,,
+CSCE 206,Lab 1,KENNEDY K BATCHLER_5476_assignsubmission_file_L,Lab3_Q1pt4.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KENNEDY K BATCHLER_5476_assignsubmission_file_Lab 3\lab3,Success,"L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+L3=L1|L2
+print L3 #union of L1 and L2","set([2, 3, 4, 5, 9, 10, 15])
+",,,
+CSCE 206,Lab 1,KENNEDY K BATCHLER_5476_assignsubmission_file_L,Lab3_Q1pt5.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KENNEDY K BATCHLER_5476_assignsubmission_file_Lab 3\lab3,Success,"L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+Q1pt5=list(L1|L2)
+Q1pt5.append(103),Q1pt5.append(20),Q1pt5.append(34)
+print Q1pt5 #appended L1","[2, 3, 4, 5, 9, 10, 15, 103, 20, 34]
+",,,
+CSCE 206,Lab 1,KENNEDY K BATCHLER_5476_assignsubmission_file_L,Lab3_Q2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KENNEDY K BATCHLER_5476_assignsubmission_file_Lab 3\lab3,Success,"sum = 0
+q2 = 13
+while q2 <= 999:
+    q2 = q2 + 2
+    sum = sum + q2
+print (sum)","250952
+",,,
+CSCE 206,Lab 1,KYLE DAVID SHEPARD_5451_assignsubmission_file_Lab 3 Kyle Shepard,lab3_1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KYLE DAVID SHEPARD_5451_assignsubmission_file_Lab 3 Kyle Shepard\lab3,Success,"L1l=[2, 3, 4,10]
+L2l=[5,3,4,9,10,15]
+L1s={2, 3, 4,10}
+L2s={5,3,4,9,10,15}
+
+print ""exists in both:"", L1s & L2s
+print ""exists in both:"",L1l[1],L2l[2],L1l[3]
+print ""in L1 and not in L2:"", L1s | L2s
+
+L3 = L1l+L2l
+print ""L3:"",L3
+
+L2l.append(103),L2l.append(20),L2l.append(34);
+print ""appended L2:"", L2l","exists in both: set([10, 3, 4])
+exists in both: 3 4 10
+in L1 and not in L2: set([2, 3, 4, 5, 9, 10, 15])
+L3: [2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+appended L2: [5, 3, 4, 9, 10, 15, 103, 20, 34]
+",10,"For the last question, we need to print the numbers which are both factor of 3 & 7 and need to use while loop. Please refer to the answer.
+
+import random
+
+x=[int(300*random.random()) for i in xrange(300)]
+
+
+
+result = []
+
+i=0
+
+while(i<len(x)):
+
+    if( (x[i]%3 == 0) & (x[i]%7 ==0)):
+
+        result.append(x[i])
+
+    i+=1
+
+
+
+print ""The list of random numbers which are a factor of 3 & 7 are "" + str(result)",complete
+CSCE 206,Lab 1,KYLE DAVID SHEPARD_5451_assignsubmission_file_Lab 3 Kyle Shepard,lab3_2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KYLE DAVID SHEPARD_5451_assignsubmission_file_Lab 3 Kyle Shepard\lab3,Success,"c=range(13,1000,2)
+
+print sum(c)","249964
+",,,
+CSCE 206,Lab 1,KYLE DAVID SHEPARD_5451_assignsubmission_file_Lab 3 Kyle Shepard,lab3_3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\KYLE DAVID SHEPARD_5451_assignsubmission_file_Lab 3 Kyle Shepard\lab3,Success,"import random
+
+x=[int(300*random.random()) for i in xrange(300)]
+
+sortedx=sorted(x)
+
+for y in sortedx:
+	if(y%3==0):
+		print y 
+	if(y%7==0):
+		print y
+","3
+14
+15
+15
+18
+21
+21
+24
+27
+28
+28
+30
+35
+35
+36
+39
+39
+42
+42
+42
+42
+42
+42
+45
+45
+45
+48
+49
+49
+51
+51
+51
+54
+57
+60
+60
+63
+63
+63
+63
+63
+63
+69
+72
+72
+75
+77
+81
+81
+84
+84
+84
+84
+90
+91
+93
+93
+96
+98
+102
+102
+105
+105
+111
+112
+119
+120
+120
+120
+120
+126
+126
+129
+129
+129
+132
+133
+133
+138
+138
+138
+147
+147
+150
+153
+154
+154
+156
+156
+159
+161
+168
+168
+168
+168
+171
+171
+175
+177
+177
+177
+180
+180
+183
+189
+189
+189
+189
+196
+196
+198
+198
+203
+204
+204
+204
+207
+217
+217
+222
+222
+222
+222
+222
+224
+225
+225
+228
+238
+238
+238
+245
+245
+245
+245
+246
+246
+252
+252
+252
+252
+255
+259
+259
+261
+273
+273
+279
+280
+280
+280
+280
+285
+287
+288
+288
+294
+294
+",,,
+CSCE 206,Lab 1,LUCKE OLIVEIRA LUZ_5471_assignsubmission_file_Lab3_Lucke_Oliveira_Luz,lab3_ex1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\LUCKE OLIVEIRA LUZ_5471_assignsubmission_file_Lab3_Lucke_Oliveira_Luz\lab3,Success,"# Name: Lucke Oliveira Luz		Assignment: Lab 3      Exercise: 1
+
+L1 = [2,3,4,10]
+L2 = [5,3,4,9,10,15]
+S1 = set (L1)
+S2 = set (L2)
+print ""IN BOTH L1 AND L2 ="", S1 & S2
+print ""IN L1 OR IN L2 EXCLUSIVELY ="", (S1 - S2) | (S2 - S1)
+print ""IN L1 NOT IN L2 ="", S1 - S2
+
+S3 = S1 | S2
+L3 = list(S3)
+print ""L3 ="", L3
+
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print ""NEW L2 ="", L2","IN BOTH L1 AND L2 = set([10, 3, 4])
+IN L1 OR IN L2 EXCLUSIVELY = set([9, 2, 5, 15])
+IN L1 NOT IN L2 = set([2])
+L3 = [2, 3, 4, 5, 9, 10, 15]
+NEW L2 = [5, 3, 4, 9, 10, 15, 103, 20, 34]
+",9,For the last question we need to print all the random numbers which are factor of 3 & 7.,complete
+CSCE 206,Lab 1,LUCKE OLIVEIRA LUZ_5471_assignsubmission_file_Lab3_Lucke_Oliveira_Luz,lab3_ex2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\LUCKE OLIVEIRA LUZ_5471_assignsubmission_file_Lab3_Lucke_Oliveira_Luz\lab3,Success,"# Name: Lucke Oliveira Luz		Assignment: Lab 3      Exercise: 2
+
+n = 13
+SUM = []
+while n <= 999:
+	SUM.append(n)
+	n = n+2
+print ""SUM ="", SUM","SUM = [13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363, 365, 367, 369, 371, 373, 375, 377, 379, 381, 383, 385, 387, 389, 391, 393, 395, 397, 399, 401, 403, 405, 407, 409, 411, 413, 415, 417, 419, 421, 423, 425, 427, 429, 431, 433, 435, 437, 439, 441, 443, 445, 447, 449, 451, 453, 455, 457, 459, 461, 463, 465, 467, 469, 471, 473, 475, 477, 479, 481, 483, 485, 487, 489, 491, 493, 495, 497, 499, 501, 503, 505, 507, 509, 511, 513, 515, 517, 519, 521, 523, 525, 527, 529, 531, 533, 535, 537, 539, 541, 543, 545, 547, 549, 551, 553, 555, 557, 559, 561, 563, 565, 567, 569, 571, 573, 575, 577, 579, 581, 583, 585, 587, 589, 591, 593, 595, 597, 599, 601, 603, 605, 607, 609, 611, 613, 615, 617, 619, 621, 623, 625, 627, 629, 631, 633, 635, 637, 639, 641, 643, 645, 647, 649, 651, 653, 655, 657, 659, 661, 663, 665, 667, 669, 671, 673, 675, 677, 679, 681, 683, 685, 687, 689, 691, 693, 695, 697, 699, 701, 703, 705, 707, 709, 711, 713, 715, 717, 719, 721, 723, 725, 727, 729, 731, 733, 735, 737, 739, 741, 743, 745, 747, 749, 751, 753, 755, 757, 759, 761, 763, 765, 767, 769, 771, 773, 775, 777, 779, 781, 783, 785, 787, 789, 791, 793, 795, 797, 799, 801, 803, 805, 807, 809, 811, 813, 815, 817, 819, 821, 823, 825, 827, 829, 831, 833, 835, 837, 839, 841, 843, 845, 847, 849, 851, 853, 855, 857, 859, 861, 863, 865, 867, 869, 871, 873, 875, 877, 879, 881, 883, 885, 887, 889, 891, 893, 895, 897, 899, 901, 903, 905, 907, 909, 911, 913, 915, 917, 919, 921, 923, 925, 927, 929, 931, 933, 935, 937, 939, 941, 943, 945, 947, 949, 951, 953, 955, 957, 959, 961, 963, 965, 967, 969, 971, 973, 975, 977, 979, 981, 983, 985, 987, 989, 991, 993, 995, 997, 999]
+",,,
+CSCE 206,Lab 1,LUCKE OLIVEIRA LUZ_5471_assignsubmission_file_Lab3_Lucke_Oliveira_Luz,lab3_ex3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\LUCKE OLIVEIRA LUZ_5471_assignsubmission_file_Lab3_Lucke_Oliveira_Luz\lab3,Success,"# Name: Lucke Oliveira Luz		Assignment: Lab 3      Exercise: 3
+
+import random
+x = [int(300*random.random()) for i in xrange(300)]
+i = 0
+FACTORS = []
+
+while i < len(x):
+	if x[i]%3 == 0:
+		FACTORS.append(x[i])
+		i+=1
+	else:
+		if x[i]%7 == 0:
+			FACTORS.append(x[i])
+			i+=1
+		else:
+			i+=1
+print ""FACTORS ="", FACTORS","FACTORS = [114, 69, 224, 75, 240, 204, 99, 171, 102, 56, 246, 112, 210, 186, 285, 203, 39, 111, 60, 81, 297, 147, 60, 141, 119, 6, 102, 291, 198, 48, 282, 287, 126, 78, 111, 276, 162, 237, 213, 225, 207, 224, 168, 240, 276, 126, 15, 243, 48, 280, 201, 140, 147, 252, 69, 159, 3, 24, 291, 252, 132, 291, 224, 171, 294, 140, 133, 276, 294, 246, 15, 72, 141, 291, 162, 177, 6, 204, 204, 18, 156, 120, 177, 183, 264, 159, 24, 140, 99, 196, 120, 28, 217, 42, 111, 210, 120, 21, 261, 3, 111, 165, 120, 48, 204, 280, 153, 141, 33, 87, 15, 261, 204, 287, 168, 196, 255, 192, 120, 246, 27, 39, 140, 42, 258, 141, 264, 60, 165, 195, 0, 273, 6, 30, 48]
+",,,
+CSCE 206,Lab 1,OISHI RYOHEI_5455_assignsubmission_file_L,Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\OISHI RYOHEI_5455_assignsubmission_file_Lab3\lab3,Success,"
+print ""1""
+L1=[2, 3, 4,10]
+L2=[5,3,4,9,10,15]
+L1set=set(L1)
+L2set=set(L2)
+print ""Print out the numbers that exist in both variables L1 and L2 using set operations""
+print L1set&L2set
+
+print ""Print out numbers that exist in L1 but not in L2.""
+print L1set-L2set
+
+print ""Print out numbers that exists in either L1 or L2, but not both using set operation""
+i=0
+j=0
+for i in range(0, i<len(L1)-1):
+    for j in range(0, j<len(L2)-1):
+        if L1[i]!=L2[j]:
+            print L1[i]
+            j+=1
+        i+=1
+i=0
+j=0
+for i in range(0, i<len(L2)-1):
+    for j in range(0, j<len(L1)-1):
+        if L2[i]!=L1[j]:
+            print L2[i]
+            j+=1
+        i+=1
+print 'Print out numbers that exists in either L1 or L2, but not both using set operation'
+L3=L1+L2
+
+print ""merge L1 and L2 and save it into variable L3""
+print L3
+
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print""Add the following numbers to L2,   103, 20, 34 using  append() function of list.""
+print L2
+
+print '*'*15
+print ""2""
+i=0
+sum=0
+for i in range(13,999,2):
+    sum = sum + i
+print sum
+
+print '*'*15
+print ""3""
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+for j in range(0,300):
+    if x[j]%4==0:
+        print x[j],
+    if x[j]%7==0:
+        print x[j],","1
+Print out the numbers that exist in both variables L1 and L2 using set operations
+set([10, 3, 4])
+Print out numbers that exist in L1 but not in L2.
+set([2])
+Print out numbers that exists in either L1 or L2, but not both using set operation
+2
+5
+Print out numbers that exists in either L1 or L2, but not both using set operation
+merge L1 and L2 and save it into variable L3
+[2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+Add the following numbers to L2,   103, 20, 34 using  append() function of list.
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+***************
+2
+248965
+***************
+3
+7 56 56 266 232 7 256 119 284 144 40 180 88 35 164 220 284 296 273 184 204 104 76 292 154 200 42 240 70 88 147 276 16 108 96 0 0 175 292 12 200 104 4 91 100 273 238 144 238 136 260 296 14 284 119 147 154 280 280 240 105 124 248 248 76 112 112 216 124 273 136 21 292 60 273 124 100 220 259 116 49 136 172 244 49 49 180 128 216 140 140 216 108 12 120 104 147 64 287 238 40 210 156 56 56 259 77
+",9,"For the last question we need to print all the random numbers which are factor of 3 & 7. As per your syntax, all random numbers which are factor of 3 or 7 are the outputs.",complete
+CSCE 206,Lab 1,PATRICK M BARBOUN_5473_assignsubmission_file_Lab 3 Patrick Barboun,Q1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\PATRICK M BARBOUN_5473_assignsubmission_file_Lab 3 Patrick Barboun\Lab 3 Patrick Barboun,Success,"L1 = set([2,3,4,10])
+L2 = set([5,3,4,9,10,15])	#Defined my lists
+
+print L1&L2
+print L1^L2					#Printed the various values asked for
+print L1-L2
+L3 = list(L1)+list(L2)		#Combined sets
+add = [103,20,34]
+L3.append(add)				#Add a new values to the combined list","set([10, 3, 4])
+set([2, 5, 9, 15])
+set([2])
+",9,"For the lat question , remember to use z to access each elements of x. 
+
+z=0
+
+
+
+while z<len(x):
+
+if x[z]%3==0 and x[z]%7==0:
+
+print x[z]
+
+z+=1",complete
+CSCE 206,Lab 1,PATRICK M BARBOUN_5473_assignsubmission_file_Lab 3 Patrick Barboun,Q2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\PATRICK M BARBOUN_5473_assignsubmission_file_Lab 3 Patrick Barboun\Lab 3 Patrick Barboun,Success,"a = [13]
+
+while a[-1]!=999:
+	a.append(a[-1]+1)
+variable_sum = sum(a[0::2])
+print variable_sum
+
+
+","249964
+",,,
+CSCE 206,Lab 1,PATRICK M BARBOUN_5473_assignsubmission_file_Lab 3 Patrick Barboun,Q3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\PATRICK M BARBOUN_5473_assignsubmission_file_Lab 3 Patrick Barboun\Lab 3 Patrick Barboun,Success,"import random
+
+x = [int(300*random.random()) for i in xrange(300)]
+
+z=0
+
+while z<len(x):
+	if x[i]%3==0 and x[i]%7==0:
+		print x[i]
+	z+=1
+
+",,,,
+CSCE 206,Lab 1,RACHEL A SMOAK_5467_assignsubmission_file_L,Lab 3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\RACHEL A SMOAK_5467_assignsubmission_file_Lab 3\lab3,Success,"#Rachel Smoak
+#Lab 3
+#7 February 2016
+
+#Question 1
+print ""Question 1""
+from math import *
+L1 = [2,3,4,10] #define lists
+L2 = [5,3,4,9,10,15]
+#Print out numbers that exist in L1 and L2 using set operations
+setL1 = set(L1) #make lists into sets so I can use set operations
+setL2 = set(L2)
+intersection = setL1&setL2 #find intersection
+print ""Intersection = "", intersection
+#Print out numbers that exist in either L1 or L2 but not both using set operations
+Union = setL1|setL2 #find all unique numbers in both sets
+Either = Union-intersection #subtract out numbers in both sets from unique list
+print ""In either list but not both = "",Either
+#Print out numbers that exist in L1 but not L2
+ButNot = setL1-setL2 #set subtraction, to remove values in L2 from L1
+print ""In L1 but not in L2 = "", ButNot
+#Merge L1 and L2 and save as L3
+L3 = list(Union) #already did the math, but want it as a list
+print ""Merge L1 and L2 and save into L3: "", L3
+#Append to L2
+L2.append(103) #append numbers to the end
+L2.append(20)
+L2.append(34)
+print ""Append values to L2: "", L2
+print '------------------------------------------------------------------'
+
+#Question2
+print ""Question 2""
+#Starting with 13, add all the odd numbers from 13 up to 999; save to variable sum
+TotalSum = 0 #Set beginning number for sum; didn't want to use sum as a variable, since it is already a defined function
+VariableSum = 13 #Set value I'm changing; start at 13
+while VariableSum<1000: #set range
+	if VariableSum%2==1: #identify odd numbers
+		TotalSum =TotalSum+VariableSum #add odd numbers to list
+	VariableSum+=1 #next element
+print ""Sum = "",TotalSum
+print '------------------------------------------------------------------'
+
+#Question 3
+print ""Question 3""
+#The following code generates 300 random integers: use while loop to print out all the numbers that have factors of 3 and 7
+import random
+List = []
+x=[int(300*random.random()) for i in xrange(300)]
+#print x
+i = 0
+while i<len(x):
+	if x[i]%3==0 and x[i]%7==0 and x[i]!=0:
+		List.append(x[i])
+	i+=1
+print ""Divisible by 3 and 7:"", List
+","Question 1
+Intersection =  set([10, 3, 4])
+In either list but not both =  set([9, 2, 5, 15])
+In L1 but not in L2 =  set([2])
+Merge L1 and L2 and save into L3:  [2, 3, 4, 5, 9, 10, 15]
+Append values to L2:  [5, 3, 4, 9, 10, 15, 103, 20, 34]
+------------------------------------------------------------------
+Question 2
+Sum =  249964
+------------------------------------------------------------------
+Question 3
+Divisible by 3 and 7: [84, 231, 231, 231, 147, 42, 126, 231, 168, 105, 294, 189, 147, 168, 147, 189, 126]
+",10,,complete
+CSCE 206,Lab 1,TRET C BURDETTE_5464_assignsubmission_file_Lab_,Lab 3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\TRET C BURDETTE_5464_assignsubmission_file_Lab_3\lab3,Success,"# -*- coding: utf-8 -*-
+""""""
+Spyder Editor
+
+This is a temporary script file.
+""""""
+print ""Question 1""
+L1={2,3,4,10}
+L2={5,3,4,9,10,15}
+print ""intersections="", L1&L2
+print ""L1 or L2, but not both="", L1^L2
+print ""in L1 not L2="", L1-L2
+L3= L1|L2
+print L3
+L2.add(103)
+L2.add(20)
+L2.add(34)
+print L2
+
+print ""Question 2""
+t=13
+stepsize=2
+while t<999:
+    variable_sum=t+2
+    print variable_sum
+    t+=stepsize
+
+
+print ""Question 3""
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+#print x
+for y in x:
+    if ((y%21==0)):
+        print y
+","Question 1
+intersections= set([10, 3, 4])
+L1 or L2, but not both= set([2, 5, 9, 15])
+in L1 not L2= set([2])
+set([2, 3, 4, 5, 9, 10, 15])
+set([34, 3, 4, 5, 103, 9, 10, 15, 20])
+Question 2
+15
+17
+19
+21
+23
+25
+27
+29
+31
+33
+35
+37
+39
+41
+43
+45
+47
+49
+51
+53
+55
+57
+59
+61
+63
+65
+67
+69
+71
+73
+75
+77
+79
+81
+83
+85
+87
+89
+91
+93
+95
+97
+99
+101
+103
+105
+107
+109
+111
+113
+115
+117
+119
+121
+123
+125
+127
+129
+131
+133
+135
+137
+139
+141
+143
+145
+147
+149
+151
+153
+155
+157
+159
+161
+163
+165
+167
+169
+171
+173
+175
+177
+179
+181
+183
+185
+187
+189
+191
+193
+195
+197
+199
+201
+203
+205
+207
+209
+211
+213
+215
+217
+219
+221
+223
+225
+227
+229
+231
+233
+235
+237
+239
+241
+243
+245
+247
+249
+251
+253
+255
+257
+259
+261
+263
+265
+267
+269
+271
+273
+275
+277
+279
+281
+283
+285
+287
+289
+291
+293
+295
+297
+299
+301
+303
+305
+307
+309
+311
+313
+315
+317
+319
+321
+323
+325
+327
+329
+331
+333
+335
+337
+339
+341
+343
+345
+347
+349
+351
+353
+355
+357
+359
+361
+363
+365
+367
+369
+371
+373
+375
+377
+379
+381
+383
+385
+387
+389
+391
+393
+395
+397
+399
+401
+403
+405
+407
+409
+411
+413
+415
+417
+419
+421
+423
+425
+427
+429
+431
+433
+435
+437
+439
+441
+443
+445
+447
+449
+451
+453
+455
+457
+459
+461
+463
+465
+467
+469
+471
+473
+475
+477
+479
+481
+483
+485
+487
+489
+491
+493
+495
+497
+499
+501
+503
+505
+507
+509
+511
+513
+515
+517
+519
+521
+523
+525
+527
+529
+531
+533
+535
+537
+539
+541
+543
+545
+547
+549
+551
+553
+555
+557
+559
+561
+563
+565
+567
+569
+571
+573
+575
+577
+579
+581
+583
+585
+587
+589
+591
+593
+595
+597
+599
+601
+603
+605
+607
+609
+611
+613
+615
+617
+619
+621
+623
+625
+627
+629
+631
+633
+635
+637
+639
+641
+643
+645
+647
+649
+651
+653
+655
+657
+659
+661
+663
+665
+667
+669
+671
+673
+675
+677
+679
+681
+683
+685
+687
+689
+691
+693
+695
+697
+699
+701
+703
+705
+707
+709
+711
+713
+715
+717
+719
+721
+723
+725
+727
+729
+731
+733
+735
+737
+739
+741
+743
+745
+747
+749
+751
+753
+755
+757
+759
+761
+763
+765
+767
+769
+771
+773
+775
+777
+779
+781
+783
+785
+787
+789
+791
+793
+795
+797
+799
+801
+803
+805
+807
+809
+811
+813
+815
+817
+819
+821
+823
+825
+827
+829
+831
+833
+835
+837
+839
+841
+843
+845
+847
+849
+851
+853
+855
+857
+859
+861
+863
+865
+867
+869
+871
+873
+875
+877
+879
+881
+883
+885
+887
+889
+891
+893
+895
+897
+899
+901
+903
+905
+907
+909
+911
+913
+915
+917
+919
+921
+923
+925
+927
+929
+931
+933
+935
+937
+939
+941
+943
+945
+947
+949
+951
+953
+955
+957
+959
+961
+963
+965
+967
+969
+971
+973
+975
+977
+979
+981
+983
+985
+987
+989
+991
+993
+995
+997
+999
+Question 3
+273
+63
+210
+147
+84
+147
+",8,"For question 2, we need to print sum of odd number, so your syntax should be variable_sum=t+variable_sum, where variable_sum=0 initially.
+
+For the last question, we need to print all number with faotrs of 3& 7 and not 7. ie.if( (x[i]%3 == 0) & (x[i]%7 ==0)): ",complete
+CSCE 206,Lab 1,YU-TING LIN_5449_assignsubmission_file_Lab 3,Q1.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\YU-TING LIN_5449_assignsubmission_file_Lab 3\Lab 3,Success,"L1 = {""2"",""3"",""4"",""10""}
+L2 = {""5"",""3"",""4"",""9"",""10"",""15""}
+print L1.intersection(L2)
+print L1^L2
+print L1 - L2
+#print set(list(L1) + list(L2)), '=L3'
+L3 = set(list(L1) + list(L2))
+print ""L3"", L3
+
+L2 = [2, 3, 4, 10];
+L2.append(103);
+print ""newlist: "", L2
+L2.append(20);
+print ""newlist1: "", L2
+L2.append(34);
+print ""newlist2: "", L2
+
+
+
+
+","set(['10', '3', '4'])
+set(['2', '15', '9', '5'])
+set(['2'])
+L3 set(['10', '15', '3', '2', '5', '4', '9'])
+newlist:  [2, 3, 4, 10, 103]
+newlist1:  [2, 3, 4, 10, 103, 20]
+newlist2:  [2, 3, 4, 10, 103, 20, 34]
+",10,,complete
+CSCE 206,Lab 1,YU-TING LIN_5449_assignsubmission_file_Lab 3,Q2.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\YU-TING LIN_5449_assignsubmission_file_Lab 3\Lab 3,Success,"number = range(13,1000,2)
+print number
+
+total = sum(number)
+print ""total="",total
+
+
+#total=0
+#for x in number.values():
+	# print x
+#	print sum(x)
+
+","[13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363, 365, 367, 369, 371, 373, 375, 377, 379, 381, 383, 385, 387, 389, 391, 393, 395, 397, 399, 401, 403, 405, 407, 409, 411, 413, 415, 417, 419, 421, 423, 425, 427, 429, 431, 433, 435, 437, 439, 441, 443, 445, 447, 449, 451, 453, 455, 457, 459, 461, 463, 465, 467, 469, 471, 473, 475, 477, 479, 481, 483, 485, 487, 489, 491, 493, 495, 497, 499, 501, 503, 505, 507, 509, 511, 513, 515, 517, 519, 521, 523, 525, 527, 529, 531, 533, 535, 537, 539, 541, 543, 545, 547, 549, 551, 553, 555, 557, 559, 561, 563, 565, 567, 569, 571, 573, 575, 577, 579, 581, 583, 585, 587, 589, 591, 593, 595, 597, 599, 601, 603, 605, 607, 609, 611, 613, 615, 617, 619, 621, 623, 625, 627, 629, 631, 633, 635, 637, 639, 641, 643, 645, 647, 649, 651, 653, 655, 657, 659, 661, 663, 665, 667, 669, 671, 673, 675, 677, 679, 681, 683, 685, 687, 689, 691, 693, 695, 697, 699, 701, 703, 705, 707, 709, 711, 713, 715, 717, 719, 721, 723, 725, 727, 729, 731, 733, 735, 737, 739, 741, 743, 745, 747, 749, 751, 753, 755, 757, 759, 761, 763, 765, 767, 769, 771, 773, 775, 777, 779, 781, 783, 785, 787, 789, 791, 793, 795, 797, 799, 801, 803, 805, 807, 809, 811, 813, 815, 817, 819, 821, 823, 825, 827, 829, 831, 833, 835, 837, 839, 841, 843, 845, 847, 849, 851, 853, 855, 857, 859, 861, 863, 865, 867, 869, 871, 873, 875, 877, 879, 881, 883, 885, 887, 889, 891, 893, 895, 897, 899, 901, 903, 905, 907, 909, 911, 913, 915, 917, 919, 921, 923, 925, 927, 929, 931, 933, 935, 937, 939, 941, 943, 945, 947, 949, 951, 953, 955, 957, 959, 961, 963, 965, 967, 969, 971, 973, 975, 977, 979, 981, 983, 985, 987, 989, 991, 993, 995, 997, 999]
+total= 249964
+",,,
+CSCE 206,Lab 1,YU-TING LIN_5449_assignsubmission_file_Lab 3,Q3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set2\YU-TING LIN_5449_assignsubmission_file_Lab 3\Lab 3,Error,"import random
+
+x=[int(300*random.random()) for i in xrange(300)]
+print x
+print len(x)
+
+i=0
+#while i < len(x):
+#    if x[i]%7==0 and x[i]%3==0:
+#	  i+=1
+while i < len(x):
+	i +=1
+	print x[i]%7==0 and x[i]%3==0
+	
+
+","[191, 76, 178, 293, 278, 199, 157, 188, 63, 259, 37, 280, 248, 116, 278, 236, 3, 71, 262, 22, 91, 224, 49, 208, 94, 291, 215, 206, 10, 36, 119, 168, 62, 194, 275, 143, 59, 135, 45, 224, 278, 138, 217, 112, 109, 263, 38, 114, 224, 287, 96, 2, 152, 90, 152, 106, 167, 81, 90, 93, 189, 263, 47, 200, 10, 284, 24, 90, 14, 123, 214, 7, 9, 139, 59, 170, 89, 279, 193, 246, 19, 197, 285, 27, 298, 190, 132, 182, 142, 277, 59, 235, 34, 51, 121, 89, 107, 295, 71, 238, 128, 260, 197, 122, 65, 223, 191, 195, 299, 139, 175, 79, 87, 205, 152, 281, 171, 143, 152, 271, 55, 149, 119, 115, 261, 99, 5, 186, 280, 108, 285, 266, 149, 255, 193, 49, 71, 143, 104, 102, 95, 47, 105, 107, 244, 205, 108, 118, 138, 99, 92, 63, 12, 291, 143, 80, 43, 94, 20, 193, 157, 174, 101, 116, 52, 51, 88, 288, 20, 94, 274, 169, 140, 106, 158, 177, 63, 201, 146, 48, 29, 52, 171, 162, 180, 76, 67, 65, 298, 245, 45, 44, 158, 107, 16, 115, 55, 114, 141, 124, 296, 277, 250, 120, 44, 40, 186, 68, 6, 183, 18, 252, 143, 78, 258, 32, 152, 180, 46, 149, 63, 296, 270, 92, 89, 17, 166, 81, 61, 190, 153, 282, 11, 74, 48, 230, 268, 66, 116, 171, 169, 205, 94, 255, 79, 89, 75, 292, 86, 113, 205, 237, 36, 124, 48, 6, 223, 246, 122, 250, 245, 267, 128, 193, 287, 222, 30, 228, 219, 209, 157, 288, 226, 237, 152, 118, 67, 281, 96, 291, 120, 70, 266, 248, 143, 257, 270, 299, 60, 156, 172, 298, 24, 262, 98, 229, 138, 169, 70, 163]
+300
+False
+False
+False
+False
+False
+False
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+",,,
+CSCE 206,Lab 1,AMANDA C NAGLE_5453_assignsubmission_file_lab3.py,AMANDA C NAGLE_5453_assignsubmission_file_lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"# Lab Question 1
+L1= [2,3,4,10]
+L2= [5,3,4,9,10,15]
+sl1= set(L1)
+sl2= set(L2)
+
+#print numbers in both
+a= sl1 & sl2
+print a
+
+# print nubers in one or other but not both
+b= sl1 | sl2
+c= b-a
+print c
+
+#print L1 but not L2
+d= sl1-sl2
+print d
+
+#merge
+L3= L1+L2
+
+#add
+L2.append(103)
+L2.append(20)
+L2.append(34)
+
+#Lab question 2
+x=13
+total=0
+while x <= 999:
+	total+=x
+	x +=2
+print total
+
+#lab question 3
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+x.sort()
+i=0
+e=[]
+for number in range(len(x)):
+	if (x[i]%3 == 0) and (x[i]%7 == 0):
+		e.append(x[i])
+	i+=1
+print e
+
+
+
+
+
+
+
+
+","set([10, 3, 4])
+set([9, 2, 5, 15])
+set([2])
+249964
+[0, 42, 42, 84, 105, 126, 189, 189, 189, 189, 210, 273, 273, 294]
+",10,,complete
+CSCE 206,Lab 1,ANDREW M DASKALAKIS_5461_assignsubmission_file_lab3.py,ANDREW M DASKALAKIS_5461_assignsubmission_file_lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"from math import *
+from sets import Set
+import random
+
+#####################################################
+#		Problem 1
+#####################################################
+
+print ""problem 1:""
+
+L1 = [2,3,4,10]
+L2 = [5,3,4,9,10,15]
+
+intersection = sorted(list(set(L1)&set(L2)))
+print intersection		#returns the sorted list of the intersection between L1 and L2
+
+XOR = sorted(list((set(L1)|set(L2))-set(intersection)))
+print XOR				#returns the exculsive or of L1 and L2
+
+XL1 = sorted(list(set(L1)-set(L2)))
+print XL1				#returns L1 - L2
+
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print L2
+
+#####################################################
+#		Problem 2
+#####################################################
+print """"
+print ""problem 2:""
+
+sumx = 0
+
+for x in range(13,999):
+	sumx = sumx + x
+
+print sumx
+
+#####################################################
+#		Problem 3
+#####################################################
+print """"
+print ""problem 3:""
+
+x = [int(300*random.random()) for i in xrange(300)]
+
+count = 0
+#Dont know why we needed to use a while loop for this. Seems like a classic for loop problem
+#the loop runs through the values of x
+while count <= len(x)-1:
+	#the if statement checks to see if the specific number in x has a factor of 3 or 7 and is not zero
+	if x[count]!= 0 & x[count]%3==0 | x[count]%7==0:
+		print x[count]
+	count += 1
+","problem 1:
+[3, 4, 10]
+[2, 5, 9, 15]
+[2]
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+
+problem 2:
+498423
+
+problem 3:
+238
+273
+287
+182
+259
+196
+273
+259
+84
+84
+168
+14
+126
+140
+56
+245
+259
+294
+238
+252
+217
+238
+203
+273
+182
+7
+245
+70
+133
+238
+112
+266
+98
+238
+49
+259
+161
+161
+126
+259
+28
+273
+42
+63
+",9,"For the question 2 , you would have to verify if the number between 13 and 999 are odd and then sum the numbers.
+
+Fort he question 3, the random numbers need to be factor of 3 & 7 and not the 'or' condition.",complete
+CSCE 206,Lab 1,BRIAN J MADDEN_5479_assignsubmission_file_Lab3.py,BRIAN J MADDEN_5479_assignsubmission_file_Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Error,"#Question 1
+L1={2,3,4,10}
+L2={5,3,4,9,10,15}
+
+print(""numbers in both L1 and L2:"", L1 & L2)
+print(""numbers in either L1 or L2:"", L1 ^ L2)
+print(""numbers in L1 and not in L2:"", L1 - L2)
+
+L3 = L1 | L2
+print (""L3:"", L3)
+
+L2 = [5,3,4,9,10,15]
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print (""appended L2:"",L2)
+
+#Question 2
+SUM=0
+Start=13
+while Start <=999:
+	SUM+=Start
+	Start += 2
+print(""Sum is"", SUM)
+
+#Question 3
+xrange=300
+import random
+random=[int(300*random.random()) for i in xrange(300)]
+for x in random:
+	if x%3==0 and x%7==0:
+		print (x)
+
+
+
+
+
+","('numbers in both L1 and L2:', set([10, 3, 4]))
+('numbers in either L1 or L2:', set([2, 5, 9, 15]))
+('numbers in L1 and not in L2:', set([2]))
+('L3:', set([2, 3, 4, 5, 9, 10, 15]))
+('appended L2:', [5, 3, 4, 9, 10, 15, 103, 20, 34])
+('Sum is', 249964)
+",9,For the last question please use while loop and you need not declare xrange=300.,
+CSCE 206,Lab 1,CAMPBELL BRUCE MOUSSEAU_5447_assignsubmission_file_Mousseau Lab 3.py,CAMPBELL BRUCE MOUSSEAU_5447_assignsubmission_file_Mousseau Lab 3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Error,"#problem 1
+L1=[2,3,4,10]
+L2=[5,3,4,9,10,15]
+a=set(L1).intersection(L2)
+print(a)
+d=set(L1).symmetric_difference(L2)
+print(d)
+z=set(L1).difference(L2)
+print(z)
+L3=set(L1).union(L2)
+print(L3)
+(L2).append(103)
+(L2).append(20)
+(L2).append(34)
+print(L2)
+
+#Problem 2
+range(13,999)
+n=987
+sum=0
+for i in range(13,999):
+	sum=sum+i
+print(sum)
+
+#problem 3
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+xrange=300
+while index<300:
+	if x[index]%3==0 and x[index]%7==0:
+		print (x[index]),
+	index+=1
+
+","set([10, 3, 4])
+set([2, 5, 9, 15])
+set([2])
+set([2, 3, 4, 5, 9, 10, 15])
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+498423
+",9,"For the problem 2 you would have to find the odd numbers between 13 to 999 before summing them.
+
+For the problem 3 you need no declare xrange=300.",complete
+CSCE 206,Lab 1,CHARLES JOURDAN PRIEST_5475_assignsubmission_file_Lab3.py,CHARLES JOURDAN PRIEST_5475_assignsubmission_file_Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Error,"L1={2,3,4,10}
+L2={5,3,4,9,10,15}
+
+print (L1&L2)
+
+print (L1^L2)
+
+print (L1-L2)
+
+L3= L1|L2
+
+L2=[5,3,4,9,10,15]
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print (L2)
+
+
+y=0
+x=13
+while x<= 997:
+	y=y+x
+	x=x+2
+
+print (y)
+
+
+import random
+x=[int(300*random.random()) for i in range(300)]
+i=0
+
+for i in x:
+	while i<300:
+		if x%3==0:
+			print(x)
+		if x%7==0:
+			print(x)
+		i=i+1","set([10, 3, 4])
+set([2, 5, 9, 15])
+set([2])
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+248965
+",8,"For the question 2, you would have to include 999 also, ie : while index <= 999:
+
+For the last question please find the answer below
+
+import random
+
+x=[int(300*random.random()) for i in xrange(300)]
+
+
+
+result = []
+
+i=0
+
+while(i<len(x)):
+
+    if( (x[i]%3 == 0) & (x[i]%7 ==0)):
+
+        result.append(x[i])
+
+    i+=1
+
+
+
+print ""The list of random numbers which are a factor of 3 & 7 are "" + str(result)",complete
+CSCE 206,Lab 1,CONNOR ALLEN WEST_5488_assignsubmission_file_Lab3.py,CONNOR ALLEN WEST_5488_assignsubmission_file_Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"from math import *
+# Question 1
+
+L1=[2,3,4,10]
+L2=[5,3,4,9,10,15]
+Set1=set([2,3,4,10])
+Set2=set([5,3,4,9,10,15])
+
+IN = Set1.intersection(Set2)
+print(IN)
+
+sym = Set1.symmetric_difference(Set2)
+print(sym)
+
+diff = Set1.difference(Set2)
+print(diff)
+
+L3 = L1 + L2
+print(L3)
+
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print(L2)
+
+#Question 2
+A = 13
+dA = 2
+total = 0
+while A <= 999:
+	total += A
+	A = A + dA
+print(total)
+
+#Question 3
+import random
+x=[int(300*random.random()) for i in range(300)]
+
+
+for a in x:
+	if a%3==0 and a%7==0:
+		print(a)","set([10, 3, 4])
+set([2, 5, 9, 15])
+set([2])
+[2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+249964
+231
+42
+273
+126
+0
+105
+0
+126
+294
+168
+126
+105
+63
+63
+210
+252
+84
+189
+210
+0
+",10,,complete
+CSCE 206,Lab 1,DENNIS M COE_5491_assignsubmission_file_lab3.py,DENNIS M COE_5491_assignsubmission_file_lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"L1 = [2, 3, 4, 10]
+L2 = [5, 3, 4, 9, 10, 15]
+
+
+print set(L1) & set(L2)
+print set(L1) | set(L2)
+print set(L1) - set(L2)
+
+L3 = set(L1) | set(L2)
+L2.append([103, 20, 34])
+print L2
+
+
+d = range(13, 1000, 2)
+sum1 = sum(d)
+print (sum1)
+
+
+import random
+numbers = [int(300*random.random()) for i in xrange(300)]
+
+i = 1
+while i < len(numbers):
+	if numbers[i]%7==0 and numbers[i]%3==0:
+		print numbers[i]
+	i+=1
+	
+
+
+
+","set([10, 3, 4])
+set([2, 3, 4, 5, 9, 10, 15])
+set([2])
+[5, 3, 4, 9, 10, 15, [103, 20, 34]]
+249964
+231
+84
+210
+0
+252
+63
+84
+147
+147
+42
+21
+252
+126
+189
+",10,,complete
+CSCE 206,Lab 1,DILLON M BROWN_5477_assignsubmission_file_Lab3.py,DILLON M BROWN_5477_assignsubmission_file_Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"## Lab 3 #1
+#a) Print out the numbers that exist in both variables L1 and L2
+#   using set operations
+
+L1 = [2,3,4,10]
+L2 = [5,3,4,9,10,15]
+
+print set(L1)&set(L2)
+
+#b) Print out numbers that exists in either L1 or L2,
+#   but not both using set operation
+
+print set(L1)^set(L2)
+
+#c)Print out numbers that exist in L1 but not in L2.
+print set(L1) - set(L2)
+
+#d) merge L1 and L2 and save it into variable L3
+L3 = L1 + L2
+print L3
+
+# Add the following numbers to L2,
+# 103, 20, 34 using  append() function of list.
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print L2
+
+
+#2) starting with 13, add all the odd numbers from 13 up to 999
+#   save it to variable sum
+i = 13
+sum = 0
+while i<1000:
+    sum += i
+    i +=2
+print sum
+
+
+#3) use while loop to print out
+#   all the numbers that have factors of 3 and 7
+
+import random
+x = [int(300*random.random()) for i in xrange(300)]
+y = []
+print x
+i = 0
+while i<len(x):
+    if x[i]%3 == 0 or x[i]%7 == 0:
+        y.append(x[i])
+    i+=1
+print y
+
+","set([10, 3, 4])
+set([2, 5, 9, 15])
+set([2])
+[2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+249964
+[280, 150, 78, 294, 282, 176, 40, 204, 213, 220, 0, 38, 30, 149, 23, 113, 134, 119, 52, 26, 46, 43, 72, 257, 277, 106, 238, 285, 208, 83, 110, 199, 285, 260, 171, 92, 60, 197, 81, 126, 91, 264, 49, 137, 112, 63, 5, 190, 72, 66, 57, 40, 104, 242, 178, 95, 272, 190, 230, 148, 259, 217, 116, 164, 259, 54, 299, 60, 68, 177, 38, 245, 245, 165, 269, 168, 98, 70, 148, 284, 86, 234, 297, 257, 247, 89, 140, 161, 259, 224, 234, 141, 200, 218, 153, 299, 50, 87, 39, 243, 299, 57, 162, 26, 84, 25, 89, 175, 80, 276, 159, 222, 268, 130, 165, 77, 224, 158, 173, 264, 260, 131, 111, 52, 108, 242, 154, 22, 112, 238, 12, 126, 90, 150, 51, 153, 117, 249, 242, 261, 163, 177, 224, 13, 288, 261, 297, 234, 27, 177, 267, 140, 113, 87, 66, 54, 259, 107, 30, 146, 91, 135, 201, 131, 210, 249, 282, 62, 269, 135, 193, 130, 131, 172, 282, 8, 190, 58, 130, 94, 268, 172, 277, 251, 4, 85, 252, 52, 126, 198, 123, 69, 22, 191, 79, 237, 207, 238, 248, 196, 37, 32, 227, 232, 214, 289, 294, 224, 138, 225, 6, 285, 159, 1, 12, 98, 96, 41, 280, 236, 12, 295, 5, 236, 161, 236, 250, 24, 38, 291, 131, 55, 254, 90, 207, 159, 246, 5, 213, 208, 174, 146, 118, 171, 204, 195, 147, 182, 121, 161, 261, 69, 132, 62, 6, 24, 283, 56, 51, 279, 52, 157, 73, 152, 135, 153, 96, 87, 43, 35, 3, 51, 21, 5, 64, 35, 231, 252, 122, 82, 13, 4, 142, 220, 261, 26, 158, 104, 62, 192, 94, 72, 38, 298, 27, 218, 34, 267, 128, 204]
+[280, 150, 78, 294, 282, 204, 213, 0, 30, 119, 72, 238, 285, 285, 171, 60, 81, 126, 91, 264, 49, 112, 63, 72, 66, 57, 259, 217, 259, 54, 60, 177, 245, 245, 165, 168, 98, 70, 234, 297, 140, 161, 259, 224, 234, 141, 153, 87, 39, 243, 57, 162, 84, 175, 276, 159, 222, 165, 77, 224, 264, 111, 108, 154, 112, 238, 12, 126, 90, 150, 51, 153, 117, 249, 261, 177, 224, 288, 261, 297, 234, 27, 177, 267, 140, 87, 66, 54, 259, 30, 91, 135, 201, 210, 249, 282, 135, 282, 252, 126, 198, 123, 69, 237, 207, 238, 196, 294, 224, 138, 225, 6, 285, 159, 12, 98, 96, 280, 12, 161, 24, 291, 90, 207, 159, 246, 213, 174, 171, 204, 195, 147, 182, 161, 261, 69, 132, 6, 24, 56, 51, 279, 135, 153, 96, 87, 35, 3, 51, 21, 35, 231, 252, 261, 192, 72, 27, 267, 204]
+",9,For the last question please use and instead of or if x[i]%3 == 0 and x[i]%7 == 0:,complete
+CSCE 206,Lab 1,ELENA M BUFF_5480_assignsubmission_file_lab3.py,ELENA M BUFF_5480_assignsubmission_file_lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"#1
+print (""1."")
+L1=[2,3,4,10]
+L2=[5,3,4,9,10,15]
+print ('Numbers in both:', set(L1).intersection(set(L2)))
+print ('Numbers in either, but not both:',set(L1).union(set(L2)) - set(L1).intersection(set(L2)))
+print ('Numbers in L1 but not L2:',set(L1)-set(L2))
+L3=L1+L2
+print (L3)
+new=L2.append([103,20,34])
+print(L2)
+print ()
+
+#2
+print (""2."")
+#x=range(13,1000,2)
+#i=0
+#while i<len(x):
+#	i+=1
+#print (sum(x))
+mySum=13
+num=2
+while num<1000:
+	mySum+=num
+	num+=2
+print (mySum)
+print ()
+
+#3
+print (""3."")
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+#print(x)
+i=0
+while i<300:
+	if i%3==0 and i%7==0:
+		print (i)
+	i+=1
+","1.
+('Numbers in both:', set([10, 3, 4]))
+('Numbers in either, but not both:', set([9, 2, 5, 15]))
+('Numbers in L1 but not L2:', set([2]))
+[2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+[5, 3, 4, 9, 10, 15, [103, 20, 34]]
+()
+2.
+249513
+()
+3.
+0
+21
+42
+63
+84
+105
+126
+147
+168
+189
+210
+231
+252
+273
+294
+",10,,complete
+CSCE 206,Lab 1,ELLEN A UNDERWOOD_5486_assignsubmission_file_Lab 3.py,ELLEN A UNDERWOOD_5486_assignsubmission_file_Lab 3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+print ""numbers in both"",L1&L2
+print ""in L1 not L2"", L1-L2
+print ""different"", (L1|L2)-(L1&L2)
+
+
+L3=L1 | L2
+print ""put together:"",L3
+
+L1=[2,3,4,10]
+L2=[5,3,4,9,10,15]
+
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print ""appended L2:"",L2
+
+sum=0
+i=0
+a=range(13,1000)
+while i<len(a):
+	sum+=a[i]
+	i+=1
+print ""sum from 13-999:"", sum
+
+import random
+
+x=[int(300*random.random()) for i in xrange(300)]
+for i in x:
+		if x[i]%3==0 and x[i]%7==0:
+			i+=1
+print ""divisible by 3 and 7:"",x[i]
+
+	
+	
+		
+
+	
+
+","numbers in both set([10, 3, 4])
+in L1 not L2 set([2])
+different set([9, 2, 5, 15])
+put together: set([2, 3, 4, 5, 9, 10, 15])
+appended L2: [5, 3, 4, 9, 10, 15, 103, 20, 34]
+sum from 13-999: 499422
+divisible by 3 and 7: 74
+",9,"For the problem 2 you would have to find the odd numbers between 13 to 999 before summing them.
+
+For the last problem you will have to put the print within the if condition, otherwise only the last element would be printed.
+
+for i in x:
+
+    if x[i]%3==0 and x[i]%7==0:
+
+          print """"divisible by 3 and 7:"""",x[i]    
+
+    i+=1",complete
+CSCE 206,Lab 1,JAMES G CHANDA_5457_assignsubmission_file_Lab 3.py,JAMES G CHANDA_5457_assignsubmission_file_Lab 3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"print ""*****Question 1*****""
+#1): play with list and set
+
+L1= {2, 3, 4, 10}
+L2= {5,3,4,9,10,15}
+
+print ""L1:"", L1
+print ""L2:"", L2
+print ""Intersection:"" , L1 & L2
+print ""Exists in either:"" , L1 ^ L2
+print ""L1 but not L2:"", L1-L2
+L3 = L1 | L2
+print ""L3:"", L3
+L2 = list(L2)
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print ""New L2:"", L2
+
+
+
+print """"
+print ""*****Question 2*****""
+#2): while loop application, starting with 13, add all the odd numbers from 13 up
+#to 999. save it to variable sum
+var = 13
+step = 2
+var_sum = 0
+while var <1000:
+	var_sum += var
+	var += step
+print var_sum
+
+	
+print """"
+print ""*****Question 3*****""
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+#use while loop to print out all numbers that have factors of 3 and 7
+#i = 0
+
+i=0
+while i in range(0,len(x)):
+	if x[i]%3==0 and x[i]%7 == 0:
+		print x[i]
+	i+=1
+	
+","*****Question 1*****
+L1: set([10, 3, 4, 2])
+L2: set([3, 4, 5, 9, 10, 15])
+Intersection: set([10, 3, 4])
+Exists in either: set([2, 5, 9, 15])
+L1 but not L2: set([2])
+L3: set([2, 3, 4, 5, 9, 10, 15])
+New L2: [3, 4, 5, 9, 10, 15, 103, 20, 34]
+
+*****Question 2*****
+249964
+
+*****Question 3*****
+63
+210
+21
+105
+84
+105
+105
+231
+168
+105
+210
+273
+63
+105
+210
+210
+210
+0
+0
+",10,,complete
+CSCE 206,Lab 1,JESSICA ROSE ROTHEISER_5454_assignsubmission_file_jessica.rotheiser.lab3.py,JESSICA ROSE ROTHEISER_5454_assignsubmission_file_jessica.rotheiser.lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Error,"from numpy import *
+#question 1
+L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+
+print ""in both L1 and L2:"", L1 & L2
+print ""in either L1 or L2 but not both:"", L1^L2
+print ""in L1 but not L2:"", L1 - L2
+L3=L1|L2
+print ""L3="", L3
+
+L2_list=list(L2)
+L2_list.append(20)
+L2_list.append(34)
+L2_list.append(103)
+print L2_list
+
+#question 2
+sum_=sum(range(13,1000,2))
+print sum_
+
+#question 3
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+for i in x:
+	if i%7==0 and i%3==0:
+		print i",,10,,complete
+CSCE 206,Lab 1,JOSE FRANCISCO CHIKI_5452_assignsubmission_file_lab3.py,JOSE FRANCISCO CHIKI_5452_assignsubmission_file_lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"print ""1.play with list and set""
+L1=[2,3,4,10]
+L2=[5,3,4,9,10,15]
+l1={2,3,4,10}
+l2={5,3,4,9,10,15}
+print ""intersections:"", l1&l2
+# print ""in either L1 or L2, but not both:"" l2.symmetric_difference(l1)	#this set opperation won't work for some reason
+print ""in L1 but not in L2:"", l1-l2
+print ""union of l1 and l2:"", l1|l2
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print ""L2 post append:"", L2
+print ""2.while loop application""
+c=11
+while c<=999:
+	c+=1
+	SUM=c
+	SUM=SUM+c
+print SUM
+print ""3. while loop""
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+z=0
+while z<=298:
+	z+=1
+	if x[z]%21==0: #if the numbers have factors of 3 and 7, they must have a factor of 21
+		print x[z]","1.play with list and set
+intersections: set([10, 3, 4])
+in L1 but not in L2: set([2])
+union of l1 and l2: set([2, 3, 4, 5, 9, 10, 15])
+L2 post append: [5, 3, 4, 9, 10, 15, 103, 20, 34]
+2.while loop application
+2000
+3. while loop
+252
+231
+0
+147
+126
+126
+63
+0
+231
+210
+252
+63
+84
+126
+84
+",8,"For the 3 question, the start should be from 13 and not 11. The c should be incremented by 2 and in the first run initialize sum as zero.
+
+c=13
+
+sum=0
+
+while c<=999:
+
+     SUM=SUM+c
+
+     c=c+2
+
+print c
+
+
+
+For question 3, to print only the numbers whose factors are 3 & 7, we need to code as if( (x[i]%3 == 0) & (x[i]%7 ==0)):
+
+",complete
+CSCE 206,Lab 1,JOSHUA D THOMPSON_5459_assignsubmission_file_Lab 3.py,JOSHUA D THOMPSON_5459_assignsubmission_file_Lab 3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Error,"# Josh Thompson Lab 3 Assignment
+
+# Question 1
+
+L1= set([2, 3, 4,10])
+L2= set([5,3,4,9,10,15])
+
+print set.intersection(L1,L2)
+
+print set.symmetric_difference(L1,L2)
+
+print set.difference(L1,L2)
+
+L3 = set.union(L1,L2)
+
+print L3
+
+#########################################
+
+L1=[2, 3, 4,10]
+L2=[5,3,4,9,10,15]
+
+L2.append(304)
+L2.append(20)
+L2.append(34)
+print ""Updated List:"", L2
+
+##########################################
+
+list1 = range(13,1000,2)
+
+sum_list = sum(list1)
+
+print sum_list
+
+############################################
+
+
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+
+while x <
+
+# I honestly do not how to do the final problem, so I won't waste your time while grading
+
+
+
+",,8,"For the last question, please find the answer. Go through the code and if your not able to figure out each of the syntax and its importance please drop a mail or meet me at my office.
+
+import random
+
+x=[int(300*random.random()) for i in xrange(300)]
+
+
+
+result = []
+
+i=0
+
+while(i<len(x)):
+
+    if( (x[i]%3 == 0) & (x[i]%7 ==0)):
+
+        result.append(x[i])
+
+    i+=1
+
+
+
+print ""The list of random numbers which are a factor of 3 & 7 are "" + str(result)",complete
+CSCE 206,Lab 1,KAITLYN CALLAHAN SHEREYK_5481_assignsubmission_file_lab3.py,KAITLYN CALLAHAN SHEREYK_5481_assignsubmission_file_lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"
+L1=set([2,3,4,10])
+L2=set([5,3,4,9,10,15])
+
+print L1&L2 #exists in both
+print L1^L2 #exists in either
+print L1-L2 #exists in L1 not L2
+L3=L1|L2 #merged lists
+ 
+L2_lists=list(L2)
+L2_lists.append(103) #how to add numbers to end of list
+L2_lists.append(20)
+L2_lists.append(34)
+print L2_lists
+
+
+
+C=range(13,1000,2) # for loop approach
+total=0
+for num in C:
+	if num%2: #for odd numbers
+		total+=num
+print total
+sum=total
+print sum
+
+
+import random
+x=[int(300*random.random())for i in xrange(300)]
+for i in x:
+	if i%7==0 and i%3==0:
+		print i
+
+
+
+","set([10, 3, 4])
+set([2, 5, 9, 15])
+set([2])
+[3, 4, 5, 9, 10, 15, 103, 20, 34]
+249964
+249964
+168
+84
+168
+0
+210
+273
+0
+0
+294
+21
+168
+105
+210
+252
+168
+231
+105
+168
+",10,,complete
+CSCE 206,Lab 1,MATTHEW E BARFIELD_5463_assignsubmission_file_Lab_3.py,MATTHEW E BARFIELD_5463_assignsubmission_file_Lab_3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"print ""Question 1""
+L1={2,3,4,10}
+L2={5,3,4,9,10,15}
+
+print ""In Both L1 And L2: "", L1 & L2
+print ""In Either L1 or L2 But Not Both: "", L1 ^ L2
+print ""In L1 But Not In L2: "", L1-L2
+L3 = L1 | L2
+print ""Merge of L1 and L2: L3 = "", L3
+
+L1 = list(L1)
+L2 = list(L2)
+
+L2.append(103)
+L2.append(20)
+L2.append(34)
+
+print L2
+print ("""")
+
+print ""Question 2""
+Var = 13
+Step = 2
+Sum = 0
+while Var<1000:
+	Sum += Var
+	Var += Step
+print Sum
+print ("""")
+
+print ""Question 3""
+import random
+x = [int(300*random.random()) for i in xrange(300)]
+
+i=0
+while i in range(0,len(x)):
+	if x[i]%3==0 and x[i]%7==0:
+		print x[i]
+	i+=1
+
+","Question 1
+In Both L1 And L2:  set([10, 3, 4])
+In Either L1 or L2 But Not Both:  set([2, 5, 9, 15])
+In L1 But Not In L2:  set([2])
+Merge of L1 and L2: L3 =  set([2, 3, 4, 5, 9, 10, 15])
+[3, 4, 5, 9, 10, 15, 103, 20, 34]
+
+Question 2
+249964
+
+Question 3
+105
+63
+168
+189
+42
+84
+168
+63
+147
+273
+231
+105
+294
+210
+168
+273
+21
+168
+84
+252
+",10,,complete
+CSCE 206,Lab 1,PREM N PATEL_5490_assignsubmission_file_Lab3.py,PREM N PATEL_5490_assignsubmission_file_Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"# LAB 3
+
+print ""Problem 1:""
+L1 = [2, 3, 4, 10]
+L2 = [5, 3, 4, 9, 10, 15]
+print set(L1) & set(L2)
+print set(L1) | set(L2)
+print set(L1) - set(L2)
+L3 = L1 + L2; print L3
+L2.append(103); L2.append(20); L2.append(34)
+print L2
+
+print ""----------------------------------------------\nProblem 2:""
+# print sum(range(13,1000,2))
+sum1 = range(13,1000,2)
+sum = 0
+i = 0
+while i < len(sum1):
+	sum += sum1[i]
+	i += 1
+print sum
+
+print ""----------------------------------------------\nProblem 3:""
+import random
+x = [int(300*random.random()) for i in xrange(300)]
+multiples = []
+i=0
+while i < len(x):
+	if x[i]%3==0 & x[i]%7==0:
+		multiples.append(x[i])
+	i+=1
+print multiples
+print ","Problem 1:
+set([10, 3, 4])
+set([2, 3, 4, 5, 9, 10, 15])
+set([2])
+[2, 3, 4, 10, 5, 3, 4, 9, 10, 15]
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+----------------------------------------------
+Problem 2:
+249964
+----------------------------------------------
+Problem 3:
+[75, 171, 171, 66, 228, 198, 165, 177, 90, 270, 42, 201, 15, 129, 21, 129, 9, 156, 42, 147, 147, 285, 96, 168, 108, 120, 180, 120, 66, 48, 15, 240, 252, 114, 240, 99, 72, 273, 159, 132, 279, 192, 96, 285, 114, 147, 225, 57, 99, 249, 153, 114, 21, 117, 261, 237, 12, 78, 111, 249, 228, 9, 222, 105, 240, 231, 24, 207, 33, 78, 3, 144, 57, 210, 168, 42, 120, 234, 3, 33, 111, 24, 78, 177, 78, 117, 66, 216, 153, 252, 147, 279, 99, 36, 78, 9, 189, 117, 21, 147, 258, 72, 237, 273]
+
+",10,,complete
+CSCE 206,Lab 1,RYAN W BARRS_5483_assignsubmission_file_Lab3.py,RYAN W BARRS_5483_assignsubmission_file_Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"#=====1=====#
+L1 = {2,3,4,10}
+L2 = {5,3,4,9,10,15}
+
+print ""numbers in both:"", L1 & L2
+print ""numbers in either L1 or L2, not both:"", L1 ^ L2
+print ""numbers in L1 but not in L2:"", L1 - L2
+
+L3 = L1 | L2
+print ""L3:"", L3
+
+L2 = [5,3,4,9,10,15]
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print ""Appended list:"",L2
+
+#=====2=====#
+Sum = 0
+num = 13
+while num <=999:
+	Sum += num
+	num += 2
+print ""Sum ="",Sum
+
+#=====3=====#
+import random
+random=[int(300*random.random()) for i in xrange(300)]
+for x in random:
+	if x%3==0 and x%7==0:
+		print x","numbers in both: set([10, 3, 4])
+numbers in either L1 or L2, not both: set([2, 5, 9, 15])
+numbers in L1 but not in L2: set([2])
+L3: set([2, 3, 4, 5, 9, 10, 15])
+Appended list: [5, 3, 4, 9, 10, 15, 103, 20, 34]
+Sum = 249964
+210
+21
+147
+231
+210
+0
+42
+252
+294
+189
+210
+252
+189
+",10,Remember to use while loop for the last question.,complete
+CSCE 206,Lab 1,TAYLOR MARIE LINDSEY_5450_assignsubmission_file_Lab 3.py,TAYLOR MARIE LINDSEY_5450_assignsubmission_file_Lab 3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Error,"#1
+L1=[2,3,4,10]
+L2=[5,3,4,9,10,15]
+ both=set(L1).intersection(L2)
+print both
+
+for element in L1:
+    if element not in L2:
+        print element
+
+for item in L2:
+	if item not in L1:
+		print item
+
+L1.extend(L2)
+L3 = sorted(L1)
+print L3
+
+add={
+	L2.append(103)
+	L2.append(20)
+	L2.append(34)
+}
+print add
+
+#2
+numbers=range(13,999)
+
+def addOddNumbers(numbers):
+    for num in numbers:
+        if num % 2 == 1:
+            return sum
+        print sum(numbers)
+
+#3
+
+import random
+x=[int(300*random.random()) for i in xrange(300)]
+
+random.random(300)
+print 
+
+from random import
+x=[int(300*random.random(3,7)) for i in xrange(300)]",,8,"If you are using function until you call them , it would not execute.
+
+For the last question, please find the answer, if you have any clarifications going through the syntax , please reach out to me.
+
+import random
+
+x=[int(300*random.random()) for i in xrange(300)]
+
+
+
+result = []
+
+i=0
+
+while(i<len(x)):
+
+    if( (x[i]%3 == 0) & (x[i]%7 ==0)):
+
+        result.append(x[i])
+
+    i+=1
+
+
+
+print ""The list of random numbers which are a factor of 3 & 7 are "" + str(result)",complete
+CSCE 206,Lab 1,VICTORIA ALEXANDRA ALERS_5472_assignsubmission_file_lab3.py,VICTORIA ALEXANDRA ALERS_5472_assignsubmission_file_lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"#1----------------------------
+L1=[2, 3, 4,10]
+L2=[5,3,4,9,10,15]
+
+a=set(L1)
+b=set(L2)
+print(a & b)
+print(L1[0])
+print(a-b)
+L3=a|b
+print(L3)
+L2.append(103)
+L2.append(20)
+L2.append(34)
+print(L2)
+#2--------------------------------------------
+total=0
+for i in range(13,999):
+        if i % 2 == 1:
+            total+=i
+            print(total)
+#3---------------------------------------------
+import random
+x=[int(300*random.random()) for i in range(300)]
+result= list(filter(lambda y: (y%3==0 and y%7==0),x))
+print(""values factorable by 3 & 7"", result)","set([10, 3, 4])
+2
+set([2])
+set([2, 3, 4, 5, 9, 10, 15])
+[5, 3, 4, 9, 10, 15, 103, 20, 34]
+13
+28
+45
+64
+85
+108
+133
+160
+189
+220
+253
+288
+325
+364
+405
+448
+493
+540
+589
+640
+693
+748
+805
+864
+925
+988
+1053
+1120
+1189
+1260
+1333
+1408
+1485
+1564
+1645
+1728
+1813
+1900
+1989
+2080
+2173
+2268
+2365
+2464
+2565
+2668
+2773
+2880
+2989
+3100
+3213
+3328
+3445
+3564
+3685
+3808
+3933
+4060
+4189
+4320
+4453
+4588
+4725
+4864
+5005
+5148
+5293
+5440
+5589
+5740
+5893
+6048
+6205
+6364
+6525
+6688
+6853
+7020
+7189
+7360
+7533
+7708
+7885
+8064
+8245
+8428
+8613
+8800
+8989
+9180
+9373
+9568
+9765
+9964
+10165
+10368
+10573
+10780
+10989
+11200
+11413
+11628
+11845
+12064
+12285
+12508
+12733
+12960
+13189
+13420
+13653
+13888
+14125
+14364
+14605
+14848
+15093
+15340
+15589
+15840
+16093
+16348
+16605
+16864
+17125
+17388
+17653
+17920
+18189
+18460
+18733
+19008
+19285
+19564
+19845
+20128
+20413
+20700
+20989
+21280
+21573
+21868
+22165
+22464
+22765
+23068
+23373
+23680
+23989
+24300
+24613
+24928
+25245
+25564
+25885
+26208
+26533
+26860
+27189
+27520
+27853
+28188
+28525
+28864
+29205
+29548
+29893
+30240
+30589
+30940
+31293
+31648
+32005
+32364
+32725
+33088
+33453
+33820
+34189
+34560
+34933
+35308
+35685
+36064
+36445
+36828
+37213
+37600
+37989
+38380
+38773
+39168
+39565
+39964
+40365
+40768
+41173
+41580
+41989
+42400
+42813
+43228
+43645
+44064
+44485
+44908
+45333
+45760
+46189
+46620
+47053
+47488
+47925
+48364
+48805
+49248
+49693
+50140
+50589
+51040
+51493
+51948
+52405
+52864
+53325
+53788
+54253
+54720
+55189
+55660
+56133
+56608
+57085
+57564
+58045
+58528
+59013
+59500
+59989
+60480
+60973
+61468
+61965
+62464
+62965
+63468
+63973
+64480
+64989
+65500
+66013
+66528
+67045
+67564
+68085
+68608
+69133
+69660
+70189
+70720
+71253
+71788
+72325
+72864
+73405
+73948
+74493
+75040
+75589
+76140
+76693
+77248
+77805
+78364
+78925
+79488
+80053
+80620
+81189
+81760
+82333
+82908
+83485
+84064
+84645
+85228
+85813
+86400
+86989
+87580
+88173
+88768
+89365
+89964
+90565
+91168
+91773
+92380
+92989
+93600
+94213
+94828
+95445
+96064
+96685
+97308
+97933
+98560
+99189
+99820
+100453
+101088
+101725
+102364
+103005
+103648
+104293
+104940
+105589
+106240
+106893
+107548
+108205
+108864
+109525
+110188
+110853
+111520
+112189
+112860
+113533
+114208
+114885
+115564
+116245
+116928
+117613
+118300
+118989
+119680
+120373
+121068
+121765
+122464
+123165
+123868
+124573
+125280
+125989
+126700
+127413
+128128
+128845
+129564
+130285
+131008
+131733
+132460
+133189
+133920
+134653
+135388
+136125
+136864
+137605
+138348
+139093
+139840
+140589
+141340
+142093
+142848
+143605
+144364
+145125
+145888
+146653
+147420
+148189
+148960
+149733
+150508
+151285
+152064
+152845
+153628
+154413
+155200
+155989
+156780
+157573
+158368
+159165
+159964
+160765
+161568
+162373
+163180
+163989
+164800
+165613
+166428
+167245
+168064
+168885
+169708
+170533
+171360
+172189
+173020
+173853
+174688
+175525
+176364
+177205
+178048
+178893
+179740
+180589
+181440
+182293
+183148
+184005
+184864
+185725
+186588
+187453
+188320
+189189
+190060
+190933
+191808
+192685
+193564
+194445
+195328
+196213
+197100
+197989
+198880
+199773
+200668
+201565
+202464
+203365
+204268
+205173
+206080
+206989
+207900
+208813
+209728
+210645
+211564
+212485
+213408
+214333
+215260
+216189
+217120
+218053
+218988
+219925
+220864
+221805
+222748
+223693
+224640
+225589
+226540
+227493
+228448
+229405
+230364
+231325
+232288
+233253
+234220
+235189
+236160
+237133
+238108
+239085
+240064
+241045
+242028
+243013
+244000
+244989
+245980
+246973
+247968
+248965
+('values factorable by 3 & 7', [210, 168, 168, 147, 210, 252, 21, 84, 273, 168, 0, 189, 42, 147, 0, 84, 0])
+",10,,complete
+CSCE 206,Lab 1,XAVIER A DOUGLAS_5489_assignsubmission_file_Lab3.py,XAVIER A DOUGLAS_5489_assignsubmission_file_Lab3.py,F:\work in-progress\CSCE206\CSCE-206\submission - lab3\set1,Success,"
+#1
+print(""#1"")
+L1 = {2,3,4,10}
+L2 = {5,3,4,9,10,15}
+
+print (""intersection:"",L1 & L2)
+print (""either but in both:"",L1-L2 | L2-L1)
+print ( ""in l1 and not in l2:"", L1-L2)
+
+L3 = [L1 | L2]
+print(""Orginal L3 :"",L3)
+
+L3.append(103)
+L3.append(20)
+L3.append(34)
+print(""Appended L3 :"",L3)
+
+
+#249964
+#2
+print(""#2"")
+odd = []
+numbers= range(13,1000)
+for x in numbers:
+	if x%2!=0:
+		odd.append(x)
+total = sum(odd)
+print(""total ="", total)
+
+
+#3
+print(""#3"")
+import random
+x=[int(300*random.random()) for i in range(300)]
+numbers= range(100)
+for x in numbers:
+	if x%3==0 and x%7==0:
+		print(x)
+
+","#1
+('intersection:', set([10, 3, 4]))
+('either but in both:', set([9, 2, 5, 15]))
+('in l1 and not in l2:', set([2]))
+('Orginal L3 :', [set([2, 3, 4, 5, 9, 10, 15])])
+('Appended L3 :', [set([2, 3, 4, 5, 9, 10, 15]), 103, 20, 34])
+#2
+('total =', 249964)
+#3
+0
+21
+42
+63
+84
+",10,for the last question you need not limit the number range to 100. ie numbers= range(100) is not required.,complete
