@@ -1,0 +1,63 @@
+
+Q1: 
+define a function called printstar(n), which will print n number of '*' on a single line.
+ (Hint, add a ',' at end of print statement will keep next print to output at same line)
+test your function by calling
+
+printstar(1)
+printstar(10)
+printstar(100)
+
+
+Q2: 
+define a function call printstarx, which has two parameters.
+n parameter specifies how many stars to print on each row
+row parameter specify how many rows to print stars
+the row parameter should have a default value as 1.
+so this function will print a couple of rows, each row composed of n stars.  
+You can call printstar(n) function in Q1 to work out this problem. 
+
+
+test your function by calling
+
+printstarx(10)  #which should print 1 row with 10 stars
+printstarx(10,5)# should print 5 rows, each with 10 stars
+
+
+Q3: (optional)
+
+define a function that test if an integer number is a prime number
+the function should return true or false.
+
+def checkprime(n):
+	#your code here
+	#hint, you just need to check if there is any number x from 2 #to n-1 that makes n%x==0. if so, it is not a prime, return #false. otherwise return true.
+
+test your function by:
+
+print checkprime(3)  #shoud get true
+print checkprime(255) #should get false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

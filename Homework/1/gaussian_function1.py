@@ -17,7 +17,8 @@ temp1 = math.sqrt(2.0*math.pi)*s
 temp2 = 1.0 / temp1
 output = temp2 * math.exp(temp)
 
-print " The Gaussian output  of f(1) is " + str(output)
+print "The Gaussian output  of f(1) is " + str(output)
+Popen.wait();
 
 
 '''################################################################################
